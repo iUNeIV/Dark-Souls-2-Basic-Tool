@@ -1,2 +1,3 @@
-# Dark-Souls-2-Basic-Tool
-Le tool du jeu Dark Souls sur PS3 [DEX|CEX]
+
+Voici mon premier tool du jeu Dark Souls 2 sur la PS3.
+
