@@ -24,7 +24,6 @@ Partial Class Form1
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
-        Me.Timer2 = New System.Windows.Forms.Timer(Me.components)
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         Me.Timer3 = New System.Windows.Forms.Timer(Me.components)
         Me.SimplaTheme1 = New Dark_Souls_2_Basic_Tool.SimplaTheme()
@@ -38,101 +37,99 @@ Partial Class Form1
         Me.SimplaButton2 = New Dark_Souls_2_Basic_Tool.SimplaButton()
         Me.SimplaButton1 = New Dark_Souls_2_Basic_Tool.SimplaButton()
         Me.TabPage2 = New System.Windows.Forms.TabPage()
-        Me.InfluenceGroupBox3 = New Dark_Souls_2_Basic_Tool.InfluenceGroupBox()
-        Me.SimplaButton35 = New Dark_Souls_2_Basic_Tool.SimplaButton()
+        Me.GroupBox14 = New System.Windows.Forms.GroupBox()
         Me.SimplaButton32 = New Dark_Souls_2_Basic_Tool.SimplaButton()
         Me.SimplaButton42 = New Dark_Souls_2_Basic_Tool.SimplaButton()
-        Me.SimplaButton33 = New Dark_Souls_2_Basic_Tool.SimplaButton()
-        Me.TextBox2 = New Dark_Souls_2_Basic_Tool.SimplaTextBox()
-        Me.TextBox1 = New Dark_Souls_2_Basic_Tool.SimplaTextBox()
-        Me.SimplaButton24 = New Dark_Souls_2_Basic_Tool.SimplaButton()
+        Me.SimplaButton35 = New Dark_Souls_2_Basic_Tool.SimplaButton()
         Me.SimplaButton8 = New Dark_Souls_2_Basic_Tool.SimplaButton()
-        Me.SimplaButton10 = New Dark_Souls_2_Basic_Tool.SimplaButton()
         Me.SimplaButton7 = New Dark_Souls_2_Basic_Tool.SimplaButton()
         Me.SimplaButton6 = New Dark_Souls_2_Basic_Tool.SimplaButton()
         Me.SimplaButton5 = New Dark_Souls_2_Basic_Tool.SimplaButton()
         Me.SimplaButton4 = New Dark_Souls_2_Basic_Tool.SimplaButton()
         Me.SimplaButton3 = New Dark_Souls_2_Basic_Tool.SimplaButton()
         Me.TabPage3 = New System.Windows.Forms.TabPage()
-        Me.GroupBox10 = New System.Windows.Forms.GroupBox()
-        Me.SimplaButton16 = New Dark_Souls_2_Basic_Tool.SimplaButton()
-        Me.NumericUpDown1 = New System.Windows.Forms.NumericUpDown()
-        Me.GroupBox9 = New System.Windows.Forms.GroupBox()
-        Me.SimplaButton21 = New Dark_Souls_2_Basic_Tool.SimplaButton()
-        Me.NumericUpDown7 = New System.Windows.Forms.NumericUpDown()
-        Me.GroupBox7 = New System.Windows.Forms.GroupBox()
-        Me.SimplaButton19 = New Dark_Souls_2_Basic_Tool.SimplaButton()
-        Me.NumericUpDown5 = New System.Windows.Forms.NumericUpDown()
-        Me.GroupBox8 = New System.Windows.Forms.GroupBox()
-        Me.SimplaButton17 = New Dark_Souls_2_Basic_Tool.SimplaButton()
-        Me.NumericUpDown3 = New System.Windows.Forms.NumericUpDown()
-        Me.GroupBox6 = New System.Windows.Forms.GroupBox()
-        Me.SimplaButton23 = New Dark_Souls_2_Basic_Tool.SimplaButton()
-        Me.NumericUpDown9 = New System.Windows.Forms.NumericUpDown()
-        Me.GroupBox5 = New System.Windows.Forms.GroupBox()
-        Me.SimplaButton18 = New Dark_Souls_2_Basic_Tool.SimplaButton()
-        Me.NumericUpDown4 = New System.Windows.Forms.NumericUpDown()
-        Me.GroupBox3 = New System.Windows.Forms.GroupBox()
-        Me.SimplaButton20 = New Dark_Souls_2_Basic_Tool.SimplaButton()
-        Me.NumericUpDown6 = New System.Windows.Forms.NumericUpDown()
-        Me.GroupBox4 = New System.Windows.Forms.GroupBox()
-        Me.SimplaButton22 = New Dark_Souls_2_Basic_Tool.SimplaButton()
-        Me.NumericUpDown8 = New System.Windows.Forms.NumericUpDown()
-        Me.GroupBox2 = New System.Windows.Forms.GroupBox()
-        Me.SimplaButton15 = New Dark_Souls_2_Basic_Tool.SimplaButton()
-        Me.NumericUpDown2 = New System.Windows.Forms.NumericUpDown()
-        Me.SimplaButton14 = New Dark_Souls_2_Basic_Tool.SimplaButton()
-        Me.SimplaButton13 = New Dark_Souls_2_Basic_Tool.SimplaButton()
+        Me.GroupBox15 = New System.Windows.Forms.GroupBox()
+        Me.SimplaButton72 = New Dark_Souls_2_Basic_Tool.SimplaButton()
+        Me.SimplaButton73 = New Dark_Souls_2_Basic_Tool.SimplaButton()
+        Me.SimplaButton74 = New Dark_Souls_2_Basic_Tool.SimplaButton()
+        Me.GroupBox12 = New System.Windows.Forms.GroupBox()
         Me.SimplaButton12 = New Dark_Souls_2_Basic_Tool.SimplaButton()
-        Me.SimplaButton11 = New Dark_Souls_2_Basic_Tool.SimplaButton()
-        Me.SimplaButton9 = New Dark_Souls_2_Basic_Tool.SimplaButton()
+        Me.SimplaTextBox3 = New Dark_Souls_2_Basic_Tool.SimplaTextBox()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
-        Me.Label24 = New System.Windows.Forms.Label()
-        Me.Label25 = New System.Windows.Forms.Label()
-        Me.Label26 = New System.Windows.Forms.Label()
-        Me.Label27 = New System.Windows.Forms.Label()
-        Me.Label28 = New System.Windows.Forms.Label()
-        Me.Label29 = New System.Windows.Forms.Label()
-        Me.Label30 = New System.Windows.Forms.Label()
-        Me.Label31 = New System.Windows.Forms.Label()
-        Me.Label32 = New System.Windows.Forms.Label()
-        Me.Label23 = New System.Windows.Forms.Label()
-        Me.Label22 = New System.Windows.Forms.Label()
-        Me.Label21 = New System.Windows.Forms.Label()
-        Me.Label20 = New System.Windows.Forms.Label()
-        Me.Label19 = New System.Windows.Forms.Label()
-        Me.Label18 = New System.Windows.Forms.Label()
-        Me.Label17 = New System.Windows.Forms.Label()
-        Me.Label16 = New System.Windows.Forms.Label()
-        Me.Label15 = New System.Windows.Forms.Label()
-        Me.Label14 = New System.Windows.Forms.Label()
-        Me.Label13 = New System.Windows.Forms.Label()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.Label12 = New System.Windows.Forms.Label()
-        Me.Label11 = New System.Windows.Forms.Label()
-        Me.Label10 = New System.Windows.Forms.Label()
-        Me.Label9 = New System.Windows.Forms.Label()
-        Me.Label8 = New System.Windows.Forms.Label()
-        Me.Label7 = New System.Windows.Forms.Label()
-        Me.Label6 = New System.Windows.Forms.Label()
-        Me.Label5 = New System.Windows.Forms.Label()
-        Me.Label4 = New System.Windows.Forms.Label()
+        Me.SimplaButton9 = New Dark_Souls_2_Basic_Tool.SimplaButton()
+        Me.SimplaTextBox2 = New Dark_Souls_2_Basic_Tool.SimplaTextBox()
+        Me.GroupBox10 = New System.Windows.Forms.GroupBox()
+        Me.SimplaButton54 = New Dark_Souls_2_Basic_Tool.SimplaButton()
+        Me.SimplaButton55 = New Dark_Souls_2_Basic_Tool.SimplaButton()
+        Me.SimplaButton56 = New Dark_Souls_2_Basic_Tool.SimplaButton()
+        Me.GroupBox9 = New System.Windows.Forms.GroupBox()
+        Me.SimplaButton51 = New Dark_Souls_2_Basic_Tool.SimplaButton()
+        Me.SimplaButton52 = New Dark_Souls_2_Basic_Tool.SimplaButton()
+        Me.SimplaButton53 = New Dark_Souls_2_Basic_Tool.SimplaButton()
+        Me.GroupBox8 = New System.Windows.Forms.GroupBox()
+        Me.SimplaButton48 = New Dark_Souls_2_Basic_Tool.SimplaButton()
+        Me.SimplaButton49 = New Dark_Souls_2_Basic_Tool.SimplaButton()
+        Me.SimplaButton50 = New Dark_Souls_2_Basic_Tool.SimplaButton()
+        Me.GroupBox7 = New System.Windows.Forms.GroupBox()
+        Me.SimplaButton44 = New Dark_Souls_2_Basic_Tool.SimplaButton()
+        Me.SimplaButton45 = New Dark_Souls_2_Basic_Tool.SimplaButton()
+        Me.SimplaButton47 = New Dark_Souls_2_Basic_Tool.SimplaButton()
+        Me.GroupBox6 = New System.Windows.Forms.GroupBox()
+        Me.SimplaButton34 = New Dark_Souls_2_Basic_Tool.SimplaButton()
+        Me.SimplaButton41 = New Dark_Souls_2_Basic_Tool.SimplaButton()
+        Me.SimplaButton43 = New Dark_Souls_2_Basic_Tool.SimplaButton()
+        Me.GroupBox5 = New System.Windows.Forms.GroupBox()
+        Me.SimplaButton22 = New Dark_Souls_2_Basic_Tool.SimplaButton()
+        Me.SimplaButton23 = New Dark_Souls_2_Basic_Tool.SimplaButton()
+        Me.SimplaButton33 = New Dark_Souls_2_Basic_Tool.SimplaButton()
+        Me.GroupBox4 = New System.Windows.Forms.GroupBox()
+        Me.SimplaButton19 = New Dark_Souls_2_Basic_Tool.SimplaButton()
+        Me.SimplaButton20 = New Dark_Souls_2_Basic_Tool.SimplaButton()
+        Me.SimplaButton21 = New Dark_Souls_2_Basic_Tool.SimplaButton()
+        Me.GroupBox3 = New System.Windows.Forms.GroupBox()
+        Me.SimplaButton16 = New Dark_Souls_2_Basic_Tool.SimplaButton()
+        Me.SimplaButton17 = New Dark_Souls_2_Basic_Tool.SimplaButton()
+        Me.SimplaButton18 = New Dark_Souls_2_Basic_Tool.SimplaButton()
+        Me.GroupBox2 = New System.Windows.Forms.GroupBox()
+        Me.SimplaButton31 = New Dark_Souls_2_Basic_Tool.SimplaButton()
+        Me.SimplaButton30 = New Dark_Souls_2_Basic_Tool.SimplaButton()
+        Me.SimplaButton15 = New Dark_Souls_2_Basic_Tool.SimplaButton()
         Me.TabPage5 = New System.Windows.Forms.TabPage()
-        Me.InfluenceGroupBox1 = New Dark_Souls_2_Basic_Tool.InfluenceGroupBox()
-        Me.SimplaButton40 = New Dark_Souls_2_Basic_Tool.SimplaButton()
+        Me.GroupBox13 = New System.Windows.Forms.GroupBox()
+        Me.SimplaButton29 = New Dark_Souls_2_Basic_Tool.SimplaButton()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.SimplaButton71 = New Dark_Souls_2_Basic_Tool.SimplaButton()
+        Me.SimplaButton70 = New Dark_Souls_2_Basic_Tool.SimplaButton()
+        Me.SimplaButton64 = New Dark_Souls_2_Basic_Tool.SimplaButton()
+        Me.SimplaButton65 = New Dark_Souls_2_Basic_Tool.SimplaButton()
+        Me.SimplaButton66 = New Dark_Souls_2_Basic_Tool.SimplaButton()
+        Me.SimplaButton67 = New Dark_Souls_2_Basic_Tool.SimplaButton()
+        Me.SimplaButton68 = New Dark_Souls_2_Basic_Tool.SimplaButton()
+        Me.SimplaButton69 = New Dark_Souls_2_Basic_Tool.SimplaButton()
+        Me.SimplaButton58 = New Dark_Souls_2_Basic_Tool.SimplaButton()
+        Me.SimplaButton59 = New Dark_Souls_2_Basic_Tool.SimplaButton()
+        Me.SimplaButton60 = New Dark_Souls_2_Basic_Tool.SimplaButton()
+        Me.SimplaButton61 = New Dark_Souls_2_Basic_Tool.SimplaButton()
+        Me.SimplaButton62 = New Dark_Souls_2_Basic_Tool.SimplaButton()
+        Me.SimplaButton63 = New Dark_Souls_2_Basic_Tool.SimplaButton()
+        Me.SimplaButton10 = New Dark_Souls_2_Basic_Tool.SimplaButton()
+        Me.SimplaButton11 = New Dark_Souls_2_Basic_Tool.SimplaButton()
+        Me.SimplaButton13 = New Dark_Souls_2_Basic_Tool.SimplaButton()
+        Me.SimplaButton14 = New Dark_Souls_2_Basic_Tool.SimplaButton()
+        Me.SimplaButton24 = New Dark_Souls_2_Basic_Tool.SimplaButton()
+        Me.SimplaButton57 = New Dark_Souls_2_Basic_Tool.SimplaButton()
         Me.SimplaButton36 = New Dark_Souls_2_Basic_Tool.SimplaButton()
-        Me.Label99 = New System.Windows.Forms.Label()
+        Me.SimplaButton40 = New Dark_Souls_2_Basic_Tool.SimplaButton()
+        Me.SimplaButton39 = New Dark_Souls_2_Basic_Tool.SimplaButton()
         Me.SimplaButton37 = New Dark_Souls_2_Basic_Tool.SimplaButton()
         Me.SimplaButton38 = New Dark_Souls_2_Basic_Tool.SimplaButton()
-        Me.SimplaButton39 = New Dark_Souls_2_Basic_Tool.SimplaButton()
-        Me.SimplaButton27 = New Dark_Souls_2_Basic_Tool.SimplaButton()
-        Me.SimplaButton29 = New Dark_Souls_2_Basic_Tool.SimplaButton()
         Me.SimplaButton25 = New Dark_Souls_2_Basic_Tool.SimplaButton()
-        Me.SimplaButton28 = New Dark_Souls_2_Basic_Tool.SimplaButton()
+        Me.SimplaButton27 = New Dark_Souls_2_Basic_Tool.SimplaButton()
         Me.SimplaButton26 = New Dark_Souls_2_Basic_Tool.SimplaButton()
+        Me.SimplaButton28 = New Dark_Souls_2_Basic_Tool.SimplaButton()
         Me.TabPage4 = New System.Windows.Forms.TabPage()
-        Me.PictureBox4 = New System.Windows.Forms.PictureBox()
-        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
+        Me.Label5 = New System.Windows.Forms.Label()
+        Me.Label4 = New System.Windows.Forms.Label()
         Me.PictureBox3 = New System.Windows.Forms.PictureBox()
         Me.GroupBox11 = New System.Windows.Forms.GroupBox()
         Me.Label46 = New System.Windows.Forms.Label()
@@ -141,10 +138,6 @@ Partial Class Form1
         Me.Label43 = New System.Windows.Forms.Label()
         Me.Label42 = New System.Windows.Forms.Label()
         Me.Label39 = New System.Windows.Forms.Label()
-        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
-        Me.Label40 = New System.Windows.Forms.Label()
-        Me.Label38 = New System.Windows.Forms.Label()
-        Me.Label37 = New System.Windows.Forms.Label()
         Me.Label36 = New System.Windows.Forms.Label()
         Me.Label35 = New System.Windows.Forms.Label()
         Me.Label34 = New System.Windows.Forms.Label()
@@ -155,42 +148,34 @@ Partial Class Form1
         Me.TabPage1.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.TabPage2.SuspendLayout()
-        Me.InfluenceGroupBox3.SuspendLayout()
+        Me.GroupBox14.SuspendLayout()
         Me.TabPage3.SuspendLayout()
-        Me.GroupBox10.SuspendLayout()
-        CType(Me.NumericUpDown1, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.GroupBox9.SuspendLayout()
-        CType(Me.NumericUpDown7, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.GroupBox7.SuspendLayout()
-        CType(Me.NumericUpDown5, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.GroupBox8.SuspendLayout()
-        CType(Me.NumericUpDown3, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.GroupBox6.SuspendLayout()
-        CType(Me.NumericUpDown9, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.GroupBox5.SuspendLayout()
-        CType(Me.NumericUpDown4, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.GroupBox3.SuspendLayout()
-        CType(Me.NumericUpDown6, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.GroupBox4.SuspendLayout()
-        CType(Me.NumericUpDown8, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.GroupBox2.SuspendLayout()
-        CType(Me.NumericUpDown2, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.GroupBox15.SuspendLayout()
+        Me.GroupBox12.SuspendLayout()
         Me.GroupBox1.SuspendLayout()
+        Me.GroupBox10.SuspendLayout()
+        Me.GroupBox9.SuspendLayout()
+        Me.GroupBox8.SuspendLayout()
+        Me.GroupBox7.SuspendLayout()
+        Me.GroupBox6.SuspendLayout()
+        Me.GroupBox5.SuspendLayout()
+        Me.GroupBox4.SuspendLayout()
+        Me.GroupBox3.SuspendLayout()
+        Me.GroupBox2.SuspendLayout()
         Me.TabPage5.SuspendLayout()
-        Me.InfluenceGroupBox1.SuspendLayout()
+        Me.GroupBox13.SuspendLayout()
         Me.TabPage4.SuspendLayout()
-        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupBox11.SuspendLayout()
-        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Timer1
         '
+        Me.Timer1.Interval = 7500
         '
         'Timer3
         '
-        Me.Timer3.Interval = 1250
+        Me.Timer3.Interval = 150
         '
         'SimplaTheme1
         '
@@ -311,13 +296,8 @@ Partial Class Form1
         'TabPage2
         '
         Me.TabPage2.BackColor = System.Drawing.Color.FromArgb(CType(CType(34, Byte), Integer), CType(CType(34, Byte), Integer), CType(CType(34, Byte), Integer))
-        Me.TabPage2.Controls.Add(Me.InfluenceGroupBox3)
-        Me.TabPage2.Controls.Add(Me.SimplaButton33)
-        Me.TabPage2.Controls.Add(Me.TextBox2)
-        Me.TabPage2.Controls.Add(Me.TextBox1)
-        Me.TabPage2.Controls.Add(Me.SimplaButton24)
+        Me.TabPage2.Controls.Add(Me.GroupBox14)
         Me.TabPage2.Controls.Add(Me.SimplaButton8)
-        Me.TabPage2.Controls.Add(Me.SimplaButton10)
         Me.TabPage2.Controls.Add(Me.SimplaButton7)
         Me.TabPage2.Controls.Add(Me.SimplaButton6)
         Me.TabPage2.Controls.Add(Me.SimplaButton5)
@@ -330,35 +310,25 @@ Partial Class Form1
         Me.TabPage2.TabIndex = 1
         Me.TabPage2.Text = "Menu Game"
         '
-        'InfluenceGroupBox3
+        'GroupBox14
         '
-        Me.InfluenceGroupBox3.BackColor = System.Drawing.Color.Transparent
-        Me.InfluenceGroupBox3.Controls.Add(Me.SimplaButton35)
-        Me.InfluenceGroupBox3.Controls.Add(Me.SimplaButton32)
-        Me.InfluenceGroupBox3.Controls.Add(Me.SimplaButton42)
-        Me.InfluenceGroupBox3.Location = New System.Drawing.Point(37, 307)
-        Me.InfluenceGroupBox3.Name = "InfluenceGroupBox3"
-        Me.InfluenceGroupBox3.Size = New System.Drawing.Size(460, 91)
-        Me.InfluenceGroupBox3.TabIndex = 16
-        Me.InfluenceGroupBox3.Text = "Speed Player"
-        '
-        'SimplaButton35
-        '
-        Me.SimplaButton35.BackColor = System.Drawing.Color.Transparent
-        Me.SimplaButton35.ColorScheme = Dark_Souls_2_Basic_Tool.SimplaButton.ColorSchemes.DarkGray
-        Me.SimplaButton35.ForeColor = System.Drawing.Color.FromArgb(CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer))
-        Me.SimplaButton35.Location = New System.Drawing.Point(182, 38)
-        Me.SimplaButton35.Name = "SimplaButton35"
-        Me.SimplaButton35.Size = New System.Drawing.Size(100, 42)
-        Me.SimplaButton35.TabIndex = 3
-        Me.SimplaButton35.Text = "Normal"
+        Me.GroupBox14.Controls.Add(Me.SimplaButton32)
+        Me.GroupBox14.Controls.Add(Me.SimplaButton42)
+        Me.GroupBox14.Controls.Add(Me.SimplaButton35)
+        Me.GroupBox14.ForeColor = System.Drawing.Color.White
+        Me.GroupBox14.Location = New System.Drawing.Point(34, 320)
+        Me.GroupBox14.Name = "GroupBox14"
+        Me.GroupBox14.Size = New System.Drawing.Size(465, 76)
+        Me.GroupBox14.TabIndex = 20
+        Me.GroupBox14.TabStop = False
+        Me.GroupBox14.Text = "Custom Souls :"
         '
         'SimplaButton32
         '
         Me.SimplaButton32.BackColor = System.Drawing.Color.Transparent
         Me.SimplaButton32.ColorScheme = Dark_Souls_2_Basic_Tool.SimplaButton.ColorSchemes.DarkGray
         Me.SimplaButton32.ForeColor = System.Drawing.Color.FromArgb(CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer))
-        Me.SimplaButton32.Location = New System.Drawing.Point(292, 38)
+        Me.SimplaButton32.Location = New System.Drawing.Point(286, 19)
         Me.SimplaButton32.Name = "SimplaButton32"
         Me.SimplaButton32.Size = New System.Drawing.Size(165, 42)
         Me.SimplaButton32.TabIndex = 1
@@ -369,90 +339,42 @@ Partial Class Form1
         Me.SimplaButton42.BackColor = System.Drawing.Color.Transparent
         Me.SimplaButton42.ColorScheme = Dark_Souls_2_Basic_Tool.SimplaButton.ColorSchemes.DarkGray
         Me.SimplaButton42.ForeColor = System.Drawing.Color.FromArgb(CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer))
-        Me.SimplaButton42.Location = New System.Drawing.Point(3, 38)
+        Me.SimplaButton42.Location = New System.Drawing.Point(6, 19)
         Me.SimplaButton42.Name = "SimplaButton42"
         Me.SimplaButton42.Size = New System.Drawing.Size(168, 42)
         Me.SimplaButton42.TabIndex = 2
         Me.SimplaButton42.Text = "Slow"
         '
-        'SimplaButton33
+        'SimplaButton35
         '
-        Me.SimplaButton33.BackColor = System.Drawing.Color.Transparent
-        Me.SimplaButton33.ColorScheme = Dark_Souls_2_Basic_Tool.SimplaButton.ColorSchemes.DarkGray
-        Me.SimplaButton33.ForeColor = System.Drawing.Color.FromArgb(CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer))
-        Me.SimplaButton33.Location = New System.Drawing.Point(37, 12)
-        Me.SimplaButton33.Name = "SimplaButton33"
-        Me.SimplaButton33.Size = New System.Drawing.Size(211, 41)
-        Me.SimplaButton33.TabIndex = 15
-        Me.SimplaButton33.Text = "Max. Defense"
-        '
-        'TextBox2
-        '
-        Me.TextBox2.BackColor = System.Drawing.Color.FromArgb(CType(CType(35, Byte), Integer), CType(CType(35, Byte), Integer), CType(CType(35, Byte), Integer))
-        Me.TextBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox2.Font = New System.Drawing.Font("Tahoma", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox2.ForeColor = System.Drawing.Color.Lime
-        Me.TextBox2.Location = New System.Drawing.Point(37, 207)
-        Me.TextBox2.MaxLength = 10
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(211, 36)
-        Me.TextBox2.TabIndex = 14
-        Me.TextBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'TextBox1
-        '
-        Me.TextBox1.BackColor = System.Drawing.Color.FromArgb(CType(CType(35, Byte), Integer), CType(CType(35, Byte), Integer), CType(CType(35, Byte), Integer))
-        Me.TextBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox1.Font = New System.Drawing.Font("Tahoma", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox1.ForeColor = System.Drawing.Color.Lime
-        Me.TextBox1.Location = New System.Drawing.Point(37, 111)
-        Me.TextBox1.MaxLength = 10
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(211, 36)
-        Me.TextBox1.TabIndex = 13
-        Me.TextBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'SimplaButton24
-        '
-        Me.SimplaButton24.BackColor = System.Drawing.Color.Transparent
-        Me.SimplaButton24.ColorScheme = Dark_Souls_2_Basic_Tool.SimplaButton.ColorSchemes.DarkGray
-        Me.SimplaButton24.ForeColor = System.Drawing.Color.FromArgb(CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer))
-        Me.SimplaButton24.Location = New System.Drawing.Point(37, 59)
-        Me.SimplaButton24.Name = "SimplaButton24"
-        Me.SimplaButton24.Size = New System.Drawing.Size(211, 41)
-        Me.SimplaButton24.TabIndex = 10
-        Me.SimplaButton24.Text = "Custom Level"
+        Me.SimplaButton35.BackColor = System.Drawing.Color.Transparent
+        Me.SimplaButton35.ColorScheme = Dark_Souls_2_Basic_Tool.SimplaButton.ColorSchemes.DarkGray
+        Me.SimplaButton35.ForeColor = System.Drawing.Color.FromArgb(CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer))
+        Me.SimplaButton35.Location = New System.Drawing.Point(180, 19)
+        Me.SimplaButton35.Name = "SimplaButton35"
+        Me.SimplaButton35.Size = New System.Drawing.Size(100, 42)
+        Me.SimplaButton35.TabIndex = 3
+        Me.SimplaButton35.Text = "Normal"
         '
         'SimplaButton8
         '
         Me.SimplaButton8.BackColor = System.Drawing.Color.Transparent
         Me.SimplaButton8.ColorScheme = Dark_Souls_2_Basic_Tool.SimplaButton.ColorSchemes.DarkGray
         Me.SimplaButton8.ForeColor = System.Drawing.Color.FromArgb(CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer))
-        Me.SimplaButton8.Location = New System.Drawing.Point(286, 12)
+        Me.SimplaButton8.Location = New System.Drawing.Point(9, 259)
         Me.SimplaButton8.Name = "SimplaButton8"
-        Me.SimplaButton8.Size = New System.Drawing.Size(211, 41)
+        Me.SimplaButton8.Size = New System.Drawing.Size(519, 55)
         Me.SimplaButton8.TabIndex = 9
         Me.SimplaButton8.Text = "All Auto {ON}"
-        '
-        'SimplaButton10
-        '
-        Me.SimplaButton10.BackColor = System.Drawing.Color.Transparent
-        Me.SimplaButton10.ColorScheme = Dark_Souls_2_Basic_Tool.SimplaButton.ColorSchemes.DarkGray
-        Me.SimplaButton10.ForeColor = System.Drawing.Color.FromArgb(CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer))
-        Me.SimplaButton10.Location = New System.Drawing.Point(37, 155)
-        Me.SimplaButton10.Name = "SimplaButton10"
-        Me.SimplaButton10.Size = New System.Drawing.Size(211, 41)
-        Me.SimplaButton10.TabIndex = 7
-        Me.SimplaButton10.Text = "Custom Souls"
         '
         'SimplaButton7
         '
         Me.SimplaButton7.BackColor = System.Drawing.Color.Transparent
         Me.SimplaButton7.ColorScheme = Dark_Souls_2_Basic_Tool.SimplaButton.ColorSchemes.DarkGray
         Me.SimplaButton7.ForeColor = System.Drawing.Color.FromArgb(CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer))
-        Me.SimplaButton7.Location = New System.Drawing.Point(286, 59)
+        Me.SimplaButton7.Location = New System.Drawing.Point(9, 19)
         Me.SimplaButton7.Name = "SimplaButton7"
-        Me.SimplaButton7.Size = New System.Drawing.Size(211, 41)
+        Me.SimplaButton7.Size = New System.Drawing.Size(519, 39)
         Me.SimplaButton7.TabIndex = 4
         Me.SimplaButton7.Text = "Max. Level"
         '
@@ -461,9 +383,9 @@ Partial Class Form1
         Me.SimplaButton6.BackColor = System.Drawing.Color.Transparent
         Me.SimplaButton6.ColorScheme = Dark_Souls_2_Basic_Tool.SimplaButton.ColorSchemes.DarkGray
         Me.SimplaButton6.ForeColor = System.Drawing.Color.FromArgb(CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer))
-        Me.SimplaButton6.Location = New System.Drawing.Point(286, 202)
+        Me.SimplaButton6.Location = New System.Drawing.Point(9, 154)
         Me.SimplaButton6.Name = "SimplaButton6"
-        Me.SimplaButton6.Size = New System.Drawing.Size(211, 41)
+        Me.SimplaButton6.Size = New System.Drawing.Size(519, 39)
         Me.SimplaButton6.TabIndex = 3
         Me.SimplaButton6.Text = "Max. Energy"
         '
@@ -472,9 +394,9 @@ Partial Class Form1
         Me.SimplaButton5.BackColor = System.Drawing.Color.Transparent
         Me.SimplaButton5.ColorScheme = Dark_Souls_2_Basic_Tool.SimplaButton.ColorSchemes.DarkGray
         Me.SimplaButton5.ForeColor = System.Drawing.Color.FromArgb(CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer))
-        Me.SimplaButton5.Location = New System.Drawing.Point(286, 106)
+        Me.SimplaButton5.Location = New System.Drawing.Point(9, 109)
         Me.SimplaButton5.Name = "SimplaButton5"
-        Me.SimplaButton5.Size = New System.Drawing.Size(211, 41)
+        Me.SimplaButton5.Size = New System.Drawing.Size(519, 39)
         Me.SimplaButton5.TabIndex = 2
         Me.SimplaButton5.Text = "Max. Damage"
         '
@@ -483,9 +405,9 @@ Partial Class Form1
         Me.SimplaButton4.BackColor = System.Drawing.Color.Transparent
         Me.SimplaButton4.ColorScheme = Dark_Souls_2_Basic_Tool.SimplaButton.ColorSchemes.DarkGray
         Me.SimplaButton4.ForeColor = System.Drawing.Color.FromArgb(CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer))
-        Me.SimplaButton4.Location = New System.Drawing.Point(37, 249)
+        Me.SimplaButton4.Location = New System.Drawing.Point(9, 64)
         Me.SimplaButton4.Name = "SimplaButton4"
-        Me.SimplaButton4.Size = New System.Drawing.Size(460, 40)
+        Me.SimplaButton4.Size = New System.Drawing.Size(519, 39)
         Me.SimplaButton4.TabIndex = 1
         Me.SimplaButton4.Text = "Health Max."
         '
@@ -494,871 +416,901 @@ Partial Class Form1
         Me.SimplaButton3.BackColor = System.Drawing.Color.Transparent
         Me.SimplaButton3.ColorScheme = Dark_Souls_2_Basic_Tool.SimplaButton.ColorSchemes.DarkGray
         Me.SimplaButton3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer))
-        Me.SimplaButton3.Location = New System.Drawing.Point(286, 155)
+        Me.SimplaButton3.Location = New System.Drawing.Point(9, 199)
         Me.SimplaButton3.Name = "SimplaButton3"
-        Me.SimplaButton3.Size = New System.Drawing.Size(211, 41)
+        Me.SimplaButton3.Size = New System.Drawing.Size(519, 39)
         Me.SimplaButton3.TabIndex = 0
         Me.SimplaButton3.Text = "Max. Souls"
         '
         'TabPage3
         '
         Me.TabPage3.BackColor = System.Drawing.Color.FromArgb(CType(CType(34, Byte), Integer), CType(CType(34, Byte), Integer), CType(CType(34, Byte), Integer))
+        Me.TabPage3.Controls.Add(Me.GroupBox15)
+        Me.TabPage3.Controls.Add(Me.GroupBox12)
+        Me.TabPage3.Controls.Add(Me.GroupBox1)
         Me.TabPage3.Controls.Add(Me.GroupBox10)
         Me.TabPage3.Controls.Add(Me.GroupBox9)
-        Me.TabPage3.Controls.Add(Me.GroupBox7)
         Me.TabPage3.Controls.Add(Me.GroupBox8)
+        Me.TabPage3.Controls.Add(Me.GroupBox7)
         Me.TabPage3.Controls.Add(Me.GroupBox6)
         Me.TabPage3.Controls.Add(Me.GroupBox5)
-        Me.TabPage3.Controls.Add(Me.GroupBox3)
         Me.TabPage3.Controls.Add(Me.GroupBox4)
+        Me.TabPage3.Controls.Add(Me.GroupBox3)
         Me.TabPage3.Controls.Add(Me.GroupBox2)
-        Me.TabPage3.Controls.Add(Me.SimplaButton14)
-        Me.TabPage3.Controls.Add(Me.SimplaButton13)
-        Me.TabPage3.Controls.Add(Me.SimplaButton12)
-        Me.TabPage3.Controls.Add(Me.SimplaButton11)
-        Me.TabPage3.Controls.Add(Me.SimplaButton9)
-        Me.TabPage3.Controls.Add(Me.GroupBox1)
         Me.TabPage3.Location = New System.Drawing.Point(4, 25)
         Me.TabPage3.Name = "TabPage3"
         Me.TabPage3.Size = New System.Drawing.Size(540, 405)
         Me.TabPage3.TabIndex = 2
         Me.TabPage3.Text = "Menu Stats"
         '
+        'GroupBox15
+        '
+        Me.GroupBox15.Controls.Add(Me.SimplaButton72)
+        Me.GroupBox15.Controls.Add(Me.SimplaButton73)
+        Me.GroupBox15.Controls.Add(Me.SimplaButton74)
+        Me.GroupBox15.ForeColor = System.Drawing.Color.White
+        Me.GroupBox15.Location = New System.Drawing.Point(183, 352)
+        Me.GroupBox15.Name = "GroupBox15"
+        Me.GroupBox15.Size = New System.Drawing.Size(170, 49)
+        Me.GroupBox15.TabIndex = 16
+        Me.GroupBox15.TabStop = False
+        Me.GroupBox15.Text = "FTH level:"
+        '
+        'SimplaButton72
+        '
+        Me.SimplaButton72.BackColor = System.Drawing.Color.Transparent
+        Me.SimplaButton72.ColorScheme = Dark_Souls_2_Basic_Tool.SimplaButton.ColorSchemes.DarkGray
+        Me.SimplaButton72.ForeColor = System.Drawing.Color.FromArgb(CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer))
+        Me.SimplaButton72.Location = New System.Drawing.Point(78, 18)
+        Me.SimplaButton72.Name = "SimplaButton72"
+        Me.SimplaButton72.Size = New System.Drawing.Size(40, 23)
+        Me.SimplaButton72.TabIndex = 14
+        Me.SimplaButton72.Text = "99"
+        '
+        'SimplaButton73
+        '
+        Me.SimplaButton73.BackColor = System.Drawing.Color.Transparent
+        Me.SimplaButton73.ColorScheme = Dark_Souls_2_Basic_Tool.SimplaButton.ColorSchemes.DarkGray
+        Me.SimplaButton73.ForeColor = System.Drawing.Color.FromArgb(CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer))
+        Me.SimplaButton73.Location = New System.Drawing.Point(6, 18)
+        Me.SimplaButton73.Name = "SimplaButton73"
+        Me.SimplaButton73.Size = New System.Drawing.Size(66, 23)
+        Me.SimplaButton73.TabIndex = 13
+        Me.SimplaButton73.Text = "255"
+        '
+        'SimplaButton74
+        '
+        Me.SimplaButton74.BackColor = System.Drawing.Color.Transparent
+        Me.SimplaButton74.ColorScheme = Dark_Souls_2_Basic_Tool.SimplaButton.ColorSchemes.DarkGray
+        Me.SimplaButton74.ForeColor = System.Drawing.Color.FromArgb(CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer))
+        Me.SimplaButton74.Location = New System.Drawing.Point(124, 18)
+        Me.SimplaButton74.Name = "SimplaButton74"
+        Me.SimplaButton74.Size = New System.Drawing.Size(40, 23)
+        Me.SimplaButton74.TabIndex = 12
+        Me.SimplaButton74.Text = "0"
+        '
+        'GroupBox12
+        '
+        Me.GroupBox12.Controls.Add(Me.SimplaButton12)
+        Me.GroupBox12.Controls.Add(Me.SimplaTextBox3)
+        Me.GroupBox12.ForeColor = System.Drawing.Color.White
+        Me.GroupBox12.Location = New System.Drawing.Point(275, 11)
+        Me.GroupBox12.Name = "GroupBox12"
+        Me.GroupBox12.Size = New System.Drawing.Size(239, 59)
+        Me.GroupBox12.TabIndex = 19
+        Me.GroupBox12.TabStop = False
+        Me.GroupBox12.Text = "Custom Souls :"
+        '
+        'SimplaButton12
+        '
+        Me.SimplaButton12.BackColor = System.Drawing.Color.Transparent
+        Me.SimplaButton12.ColorScheme = Dark_Souls_2_Basic_Tool.SimplaButton.ColorSchemes.DarkGray
+        Me.SimplaButton12.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.SimplaButton12.ForeColor = System.Drawing.Color.FromArgb(CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer))
+        Me.SimplaButton12.Location = New System.Drawing.Point(179, 19)
+        Me.SimplaButton12.Name = "SimplaButton12"
+        Me.SimplaButton12.Size = New System.Drawing.Size(49, 28)
+        Me.SimplaButton12.TabIndex = 17
+        Me.SimplaButton12.Text = "Set"
+        '
+        'SimplaTextBox3
+        '
+        Me.SimplaTextBox3.BackColor = System.Drawing.Color.FromArgb(CType(CType(35, Byte), Integer), CType(CType(35, Byte), Integer), CType(CType(35, Byte), Integer))
+        Me.SimplaTextBox3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.SimplaTextBox3.Font = New System.Drawing.Font("Tahoma", 14.0!, System.Drawing.FontStyle.Bold)
+        Me.SimplaTextBox3.ForeColor = System.Drawing.Color.Lime
+        Me.SimplaTextBox3.Location = New System.Drawing.Point(11, 18)
+        Me.SimplaTextBox3.MaxLength = 10
+        Me.SimplaTextBox3.Name = "SimplaTextBox3"
+        Me.SimplaTextBox3.Size = New System.Drawing.Size(157, 30)
+        Me.SimplaTextBox3.TabIndex = 18
+        Me.SimplaTextBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'GroupBox1
+        '
+        Me.GroupBox1.Controls.Add(Me.SimplaButton9)
+        Me.GroupBox1.Controls.Add(Me.SimplaTextBox2)
+        Me.GroupBox1.ForeColor = System.Drawing.Color.White
+        Me.GroupBox1.Location = New System.Drawing.Point(23, 11)
+        Me.GroupBox1.Name = "GroupBox1"
+        Me.GroupBox1.Size = New System.Drawing.Size(239, 59)
+        Me.GroupBox1.TabIndex = 16
+        Me.GroupBox1.TabStop = False
+        Me.GroupBox1.Text = "Custom Level :"
+        '
+        'SimplaButton9
+        '
+        Me.SimplaButton9.BackColor = System.Drawing.Color.Transparent
+        Me.SimplaButton9.ColorScheme = Dark_Souls_2_Basic_Tool.SimplaButton.ColorSchemes.DarkGray
+        Me.SimplaButton9.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.SimplaButton9.ForeColor = System.Drawing.Color.FromArgb(CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer))
+        Me.SimplaButton9.Location = New System.Drawing.Point(179, 19)
+        Me.SimplaButton9.Name = "SimplaButton9"
+        Me.SimplaButton9.Size = New System.Drawing.Size(49, 28)
+        Me.SimplaButton9.TabIndex = 17
+        Me.SimplaButton9.Text = "Set"
+        '
+        'SimplaTextBox2
+        '
+        Me.SimplaTextBox2.BackColor = System.Drawing.Color.FromArgb(CType(CType(35, Byte), Integer), CType(CType(35, Byte), Integer), CType(CType(35, Byte), Integer))
+        Me.SimplaTextBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.SimplaTextBox2.Font = New System.Drawing.Font("Tahoma", 14.0!, System.Drawing.FontStyle.Bold)
+        Me.SimplaTextBox2.ForeColor = System.Drawing.Color.Lime
+        Me.SimplaTextBox2.Location = New System.Drawing.Point(11, 18)
+        Me.SimplaTextBox2.MaxLength = 10
+        Me.SimplaTextBox2.Name = "SimplaTextBox2"
+        Me.SimplaTextBox2.Size = New System.Drawing.Size(157, 30)
+        Me.SimplaTextBox2.TabIndex = 18
+        Me.SimplaTextBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
         'GroupBox10
         '
-        Me.GroupBox10.Controls.Add(Me.SimplaButton16)
-        Me.GroupBox10.Controls.Add(Me.NumericUpDown1)
+        Me.GroupBox10.Controls.Add(Me.SimplaButton54)
+        Me.GroupBox10.Controls.Add(Me.SimplaButton55)
+        Me.GroupBox10.Controls.Add(Me.SimplaButton56)
         Me.GroupBox10.ForeColor = System.Drawing.Color.White
-        Me.GroupBox10.Location = New System.Drawing.Point(209, 107)
+        Me.GroupBox10.Location = New System.Drawing.Point(157, 79)
         Me.GroupBox10.Name = "GroupBox10"
-        Me.GroupBox10.Size = New System.Drawing.Size(147, 49)
-        Me.GroupBox10.TabIndex = 10
+        Me.GroupBox10.Size = New System.Drawing.Size(224, 53)
+        Me.GroupBox10.TabIndex = 15
         Me.GroupBox10.TabStop = False
-        Me.GroupBox10.Text = "VIT:"
+        Me.GroupBox10.Text = "ALL Level :"
         '
-        'SimplaButton16
+        'SimplaButton54
         '
-        Me.SimplaButton16.BackColor = System.Drawing.Color.Transparent
-        Me.SimplaButton16.ColorScheme = Dark_Souls_2_Basic_Tool.SimplaButton.ColorSchemes.DarkGray
-        Me.SimplaButton16.ForeColor = System.Drawing.Color.FromArgb(CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer))
-        Me.SimplaButton16.Location = New System.Drawing.Point(86, 17)
-        Me.SimplaButton16.Name = "SimplaButton16"
-        Me.SimplaButton16.Size = New System.Drawing.Size(53, 23)
-        Me.SimplaButton16.TabIndex = 14
-        Me.SimplaButton16.Text = "Set"
+        Me.SimplaButton54.BackColor = System.Drawing.Color.Transparent
+        Me.SimplaButton54.ColorScheme = Dark_Souls_2_Basic_Tool.SimplaButton.ColorSchemes.DarkGray
+        Me.SimplaButton54.ForeColor = System.Drawing.Color.FromArgb(CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer))
+        Me.SimplaButton54.Location = New System.Drawing.Point(78, 19)
+        Me.SimplaButton54.Name = "SimplaButton54"
+        Me.SimplaButton54.Size = New System.Drawing.Size(66, 23)
+        Me.SimplaButton54.TabIndex = 14
+        Me.SimplaButton54.Text = "99"
         '
-        'NumericUpDown1
+        'SimplaButton55
         '
-        Me.NumericUpDown1.BackColor = System.Drawing.Color.FromArgb(CType(CType(34, Byte), Integer), CType(CType(34, Byte), Integer), CType(CType(34, Byte), Integer))
-        Me.NumericUpDown1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.NumericUpDown1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.NumericUpDown1.ForeColor = System.Drawing.Color.White
-        Me.NumericUpDown1.Location = New System.Drawing.Point(7, 14)
-        Me.NumericUpDown1.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown1.Minimum = New Decimal(New Integer() {1, 0, 0, 0})
-        Me.NumericUpDown1.Name = "NumericUpDown1"
-        Me.NumericUpDown1.Size = New System.Drawing.Size(73, 26)
-        Me.NumericUpDown1.TabIndex = 13
-        Me.NumericUpDown1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown1.Value = New Decimal(New Integer() {1, 0, 0, 0})
+        Me.SimplaButton55.BackColor = System.Drawing.Color.Transparent
+        Me.SimplaButton55.ColorScheme = Dark_Souls_2_Basic_Tool.SimplaButton.ColorSchemes.DarkGray
+        Me.SimplaButton55.ForeColor = System.Drawing.Color.FromArgb(CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer))
+        Me.SimplaButton55.Location = New System.Drawing.Point(6, 19)
+        Me.SimplaButton55.Name = "SimplaButton55"
+        Me.SimplaButton55.Size = New System.Drawing.Size(66, 23)
+        Me.SimplaButton55.TabIndex = 13
+        Me.SimplaButton55.Text = "255"
+        '
+        'SimplaButton56
+        '
+        Me.SimplaButton56.BackColor = System.Drawing.Color.Transparent
+        Me.SimplaButton56.ColorScheme = Dark_Souls_2_Basic_Tool.SimplaButton.ColorSchemes.DarkGray
+        Me.SimplaButton56.ForeColor = System.Drawing.Color.FromArgb(CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer))
+        Me.SimplaButton56.Location = New System.Drawing.Point(150, 19)
+        Me.SimplaButton56.Name = "SimplaButton56"
+        Me.SimplaButton56.Size = New System.Drawing.Size(66, 23)
+        Me.SimplaButton56.TabIndex = 12
+        Me.SimplaButton56.Text = "0"
         '
         'GroupBox9
         '
-        Me.GroupBox9.Controls.Add(Me.SimplaButton21)
-        Me.GroupBox9.Controls.Add(Me.NumericUpDown7)
+        Me.GroupBox9.Controls.Add(Me.SimplaButton51)
+        Me.GroupBox9.Controls.Add(Me.SimplaButton52)
+        Me.GroupBox9.Controls.Add(Me.SimplaButton53)
         Me.GroupBox9.ForeColor = System.Drawing.Color.White
-        Me.GroupBox9.Location = New System.Drawing.Point(373, 107)
+        Me.GroupBox9.Location = New System.Drawing.Point(91, 302)
         Me.GroupBox9.Name = "GroupBox9"
-        Me.GroupBox9.Size = New System.Drawing.Size(147, 49)
-        Me.GroupBox9.TabIndex = 11
+        Me.GroupBox9.Size = New System.Drawing.Size(170, 49)
+        Me.GroupBox9.TabIndex = 15
         Me.GroupBox9.TabStop = False
-        Me.GroupBox9.Text = "ATN:"
+        Me.GroupBox9.Text = "STR level:"
         '
-        'SimplaButton21
+        'SimplaButton51
         '
-        Me.SimplaButton21.BackColor = System.Drawing.Color.Transparent
-        Me.SimplaButton21.ColorScheme = Dark_Souls_2_Basic_Tool.SimplaButton.ColorSchemes.DarkGray
-        Me.SimplaButton21.ForeColor = System.Drawing.Color.FromArgb(CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer))
-        Me.SimplaButton21.Location = New System.Drawing.Point(86, 18)
-        Me.SimplaButton21.Name = "SimplaButton21"
-        Me.SimplaButton21.Size = New System.Drawing.Size(53, 23)
-        Me.SimplaButton21.TabIndex = 20
-        Me.SimplaButton21.Text = "Set"
+        Me.SimplaButton51.BackColor = System.Drawing.Color.Transparent
+        Me.SimplaButton51.ColorScheme = Dark_Souls_2_Basic_Tool.SimplaButton.ColorSchemes.DarkGray
+        Me.SimplaButton51.ForeColor = System.Drawing.Color.FromArgb(CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer))
+        Me.SimplaButton51.Location = New System.Drawing.Point(78, 18)
+        Me.SimplaButton51.Name = "SimplaButton51"
+        Me.SimplaButton51.Size = New System.Drawing.Size(40, 23)
+        Me.SimplaButton51.TabIndex = 14
+        Me.SimplaButton51.Text = "99"
         '
-        'NumericUpDown7
+        'SimplaButton52
         '
-        Me.NumericUpDown7.BackColor = System.Drawing.Color.FromArgb(CType(CType(34, Byte), Integer), CType(CType(34, Byte), Integer), CType(CType(34, Byte), Integer))
-        Me.NumericUpDown7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.NumericUpDown7.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.NumericUpDown7.ForeColor = System.Drawing.Color.White
-        Me.NumericUpDown7.Location = New System.Drawing.Point(7, 15)
-        Me.NumericUpDown7.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown7.Minimum = New Decimal(New Integer() {1, 0, 0, 0})
-        Me.NumericUpDown7.Name = "NumericUpDown7"
-        Me.NumericUpDown7.Size = New System.Drawing.Size(73, 26)
-        Me.NumericUpDown7.TabIndex = 19
-        Me.NumericUpDown7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown7.Value = New Decimal(New Integer() {1, 0, 0, 0})
+        Me.SimplaButton52.BackColor = System.Drawing.Color.Transparent
+        Me.SimplaButton52.ColorScheme = Dark_Souls_2_Basic_Tool.SimplaButton.ColorSchemes.DarkGray
+        Me.SimplaButton52.ForeColor = System.Drawing.Color.FromArgb(CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer))
+        Me.SimplaButton52.Location = New System.Drawing.Point(6, 18)
+        Me.SimplaButton52.Name = "SimplaButton52"
+        Me.SimplaButton52.Size = New System.Drawing.Size(66, 23)
+        Me.SimplaButton52.TabIndex = 13
+        Me.SimplaButton52.Text = "255"
         '
-        'GroupBox7
+        'SimplaButton53
         '
-        Me.GroupBox7.Controls.Add(Me.SimplaButton19)
-        Me.GroupBox7.Controls.Add(Me.NumericUpDown5)
-        Me.GroupBox7.ForeColor = System.Drawing.Color.White
-        Me.GroupBox7.Location = New System.Drawing.Point(297, 329)
-        Me.GroupBox7.Name = "GroupBox7"
-        Me.GroupBox7.Size = New System.Drawing.Size(147, 49)
-        Me.GroupBox7.TabIndex = 10
-        Me.GroupBox7.TabStop = False
-        Me.GroupBox7.Text = "FTH:"
-        '
-        'SimplaButton19
-        '
-        Me.SimplaButton19.BackColor = System.Drawing.Color.Transparent
-        Me.SimplaButton19.ColorScheme = Dark_Souls_2_Basic_Tool.SimplaButton.ColorSchemes.DarkGray
-        Me.SimplaButton19.ForeColor = System.Drawing.Color.FromArgb(CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer))
-        Me.SimplaButton19.Location = New System.Drawing.Point(86, 17)
-        Me.SimplaButton19.Name = "SimplaButton19"
-        Me.SimplaButton19.Size = New System.Drawing.Size(53, 23)
-        Me.SimplaButton19.TabIndex = 16
-        Me.SimplaButton19.Text = "Set"
-        '
-        'NumericUpDown5
-        '
-        Me.NumericUpDown5.BackColor = System.Drawing.Color.FromArgb(CType(CType(34, Byte), Integer), CType(CType(34, Byte), Integer), CType(CType(34, Byte), Integer))
-        Me.NumericUpDown5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.NumericUpDown5.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.NumericUpDown5.ForeColor = System.Drawing.Color.White
-        Me.NumericUpDown5.Location = New System.Drawing.Point(7, 14)
-        Me.NumericUpDown5.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown5.Minimum = New Decimal(New Integer() {1, 0, 0, 0})
-        Me.NumericUpDown5.Name = "NumericUpDown5"
-        Me.NumericUpDown5.Size = New System.Drawing.Size(73, 26)
-        Me.NumericUpDown5.TabIndex = 15
-        Me.NumericUpDown5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown5.Value = New Decimal(New Integer() {1, 0, 0, 0})
+        Me.SimplaButton53.BackColor = System.Drawing.Color.Transparent
+        Me.SimplaButton53.ColorScheme = Dark_Souls_2_Basic_Tool.SimplaButton.ColorSchemes.DarkGray
+        Me.SimplaButton53.ForeColor = System.Drawing.Color.FromArgb(CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer))
+        Me.SimplaButton53.Location = New System.Drawing.Point(124, 18)
+        Me.SimplaButton53.Name = "SimplaButton53"
+        Me.SimplaButton53.Size = New System.Drawing.Size(40, 23)
+        Me.SimplaButton53.TabIndex = 12
+        Me.SimplaButton53.Text = "0"
         '
         'GroupBox8
         '
-        Me.GroupBox8.Controls.Add(Me.SimplaButton17)
-        Me.GroupBox8.Controls.Add(Me.NumericUpDown3)
+        Me.GroupBox8.Controls.Add(Me.SimplaButton48)
+        Me.GroupBox8.Controls.Add(Me.SimplaButton49)
+        Me.GroupBox8.Controls.Add(Me.SimplaButton50)
         Me.GroupBox8.ForeColor = System.Drawing.Color.White
-        Me.GroupBox8.Location = New System.Drawing.Point(209, 180)
+        Me.GroupBox8.Location = New System.Drawing.Point(279, 302)
         Me.GroupBox8.Name = "GroupBox8"
-        Me.GroupBox8.Size = New System.Drawing.Size(147, 49)
-        Me.GroupBox8.TabIndex = 10
+        Me.GroupBox8.Size = New System.Drawing.Size(170, 49)
+        Me.GroupBox8.TabIndex = 15
         Me.GroupBox8.TabStop = False
-        Me.GroupBox8.Text = "STR:"
+        Me.GroupBox8.Text = "FTH level:"
         '
-        'SimplaButton17
+        'SimplaButton48
         '
-        Me.SimplaButton17.BackColor = System.Drawing.Color.Transparent
-        Me.SimplaButton17.ColorScheme = Dark_Souls_2_Basic_Tool.SimplaButton.ColorSchemes.DarkGray
-        Me.SimplaButton17.ForeColor = System.Drawing.Color.FromArgb(CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer))
-        Me.SimplaButton17.Location = New System.Drawing.Point(86, 18)
-        Me.SimplaButton17.Name = "SimplaButton17"
-        Me.SimplaButton17.Size = New System.Drawing.Size(53, 23)
-        Me.SimplaButton17.TabIndex = 16
-        Me.SimplaButton17.Text = "Set"
+        Me.SimplaButton48.BackColor = System.Drawing.Color.Transparent
+        Me.SimplaButton48.ColorScheme = Dark_Souls_2_Basic_Tool.SimplaButton.ColorSchemes.DarkGray
+        Me.SimplaButton48.ForeColor = System.Drawing.Color.FromArgb(CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer))
+        Me.SimplaButton48.Location = New System.Drawing.Point(78, 18)
+        Me.SimplaButton48.Name = "SimplaButton48"
+        Me.SimplaButton48.Size = New System.Drawing.Size(40, 23)
+        Me.SimplaButton48.TabIndex = 14
+        Me.SimplaButton48.Text = "99"
         '
-        'NumericUpDown3
+        'SimplaButton49
         '
-        Me.NumericUpDown3.BackColor = System.Drawing.Color.FromArgb(CType(CType(34, Byte), Integer), CType(CType(34, Byte), Integer), CType(CType(34, Byte), Integer))
-        Me.NumericUpDown3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.NumericUpDown3.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.NumericUpDown3.ForeColor = System.Drawing.Color.White
-        Me.NumericUpDown3.Location = New System.Drawing.Point(7, 15)
-        Me.NumericUpDown3.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown3.Minimum = New Decimal(New Integer() {1, 0, 0, 0})
-        Me.NumericUpDown3.Name = "NumericUpDown3"
-        Me.NumericUpDown3.Size = New System.Drawing.Size(73, 26)
-        Me.NumericUpDown3.TabIndex = 15
-        Me.NumericUpDown3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown3.Value = New Decimal(New Integer() {1, 0, 0, 0})
+        Me.SimplaButton49.BackColor = System.Drawing.Color.Transparent
+        Me.SimplaButton49.ColorScheme = Dark_Souls_2_Basic_Tool.SimplaButton.ColorSchemes.DarkGray
+        Me.SimplaButton49.ForeColor = System.Drawing.Color.FromArgb(CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer))
+        Me.SimplaButton49.Location = New System.Drawing.Point(6, 18)
+        Me.SimplaButton49.Name = "SimplaButton49"
+        Me.SimplaButton49.Size = New System.Drawing.Size(66, 23)
+        Me.SimplaButton49.TabIndex = 13
+        Me.SimplaButton49.Text = "255"
+        '
+        'SimplaButton50
+        '
+        Me.SimplaButton50.BackColor = System.Drawing.Color.Transparent
+        Me.SimplaButton50.ColorScheme = Dark_Souls_2_Basic_Tool.SimplaButton.ColorSchemes.DarkGray
+        Me.SimplaButton50.ForeColor = System.Drawing.Color.FromArgb(CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer))
+        Me.SimplaButton50.Location = New System.Drawing.Point(124, 18)
+        Me.SimplaButton50.Name = "SimplaButton50"
+        Me.SimplaButton50.Size = New System.Drawing.Size(40, 23)
+        Me.SimplaButton50.TabIndex = 12
+        Me.SimplaButton50.Text = "0"
+        '
+        'GroupBox7
+        '
+        Me.GroupBox7.Controls.Add(Me.SimplaButton44)
+        Me.GroupBox7.Controls.Add(Me.SimplaButton45)
+        Me.GroupBox7.Controls.Add(Me.SimplaButton47)
+        Me.GroupBox7.ForeColor = System.Drawing.Color.White
+        Me.GroupBox7.Location = New System.Drawing.Point(91, 247)
+        Me.GroupBox7.Name = "GroupBox7"
+        Me.GroupBox7.Size = New System.Drawing.Size(170, 49)
+        Me.GroupBox7.TabIndex = 15
+        Me.GroupBox7.TabStop = False
+        Me.GroupBox7.Text = "VIT level:"
+        '
+        'SimplaButton44
+        '
+        Me.SimplaButton44.BackColor = System.Drawing.Color.Transparent
+        Me.SimplaButton44.ColorScheme = Dark_Souls_2_Basic_Tool.SimplaButton.ColorSchemes.DarkGray
+        Me.SimplaButton44.ForeColor = System.Drawing.Color.FromArgb(CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer))
+        Me.SimplaButton44.Location = New System.Drawing.Point(78, 18)
+        Me.SimplaButton44.Name = "SimplaButton44"
+        Me.SimplaButton44.Size = New System.Drawing.Size(40, 23)
+        Me.SimplaButton44.TabIndex = 14
+        Me.SimplaButton44.Text = "99"
+        '
+        'SimplaButton45
+        '
+        Me.SimplaButton45.BackColor = System.Drawing.Color.Transparent
+        Me.SimplaButton45.ColorScheme = Dark_Souls_2_Basic_Tool.SimplaButton.ColorSchemes.DarkGray
+        Me.SimplaButton45.ForeColor = System.Drawing.Color.FromArgb(CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer))
+        Me.SimplaButton45.Location = New System.Drawing.Point(6, 18)
+        Me.SimplaButton45.Name = "SimplaButton45"
+        Me.SimplaButton45.Size = New System.Drawing.Size(66, 23)
+        Me.SimplaButton45.TabIndex = 13
+        Me.SimplaButton45.Text = "255"
+        '
+        'SimplaButton47
+        '
+        Me.SimplaButton47.BackColor = System.Drawing.Color.Transparent
+        Me.SimplaButton47.ColorScheme = Dark_Souls_2_Basic_Tool.SimplaButton.ColorSchemes.DarkGray
+        Me.SimplaButton47.ForeColor = System.Drawing.Color.FromArgb(CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer))
+        Me.SimplaButton47.Location = New System.Drawing.Point(124, 18)
+        Me.SimplaButton47.Name = "SimplaButton47"
+        Me.SimplaButton47.Size = New System.Drawing.Size(40, 23)
+        Me.SimplaButton47.TabIndex = 12
+        Me.SimplaButton47.Text = "0"
         '
         'GroupBox6
         '
-        Me.GroupBox6.Controls.Add(Me.SimplaButton23)
-        Me.GroupBox6.Controls.Add(Me.NumericUpDown9)
+        Me.GroupBox6.Controls.Add(Me.SimplaButton34)
+        Me.GroupBox6.Controls.Add(Me.SimplaButton41)
+        Me.GroupBox6.Controls.Add(Me.SimplaButton43)
         Me.GroupBox6.ForeColor = System.Drawing.Color.White
-        Me.GroupBox6.Location = New System.Drawing.Point(373, 255)
+        Me.GroupBox6.Location = New System.Drawing.Point(279, 247)
         Me.GroupBox6.Name = "GroupBox6"
-        Me.GroupBox6.Size = New System.Drawing.Size(147, 49)
-        Me.GroupBox6.TabIndex = 10
+        Me.GroupBox6.Size = New System.Drawing.Size(170, 49)
+        Me.GroupBox6.TabIndex = 15
         Me.GroupBox6.TabStop = False
-        Me.GroupBox6.Text = "INT:"
+        Me.GroupBox6.Text = "INT level:"
         '
-        'SimplaButton23
+        'SimplaButton34
         '
-        Me.SimplaButton23.BackColor = System.Drawing.Color.Transparent
-        Me.SimplaButton23.ColorScheme = Dark_Souls_2_Basic_Tool.SimplaButton.ColorSchemes.DarkGray
-        Me.SimplaButton23.ForeColor = System.Drawing.Color.FromArgb(CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer))
-        Me.SimplaButton23.Location = New System.Drawing.Point(86, 20)
-        Me.SimplaButton23.Name = "SimplaButton23"
-        Me.SimplaButton23.Size = New System.Drawing.Size(53, 23)
-        Me.SimplaButton23.TabIndex = 24
-        Me.SimplaButton23.Text = "Set"
+        Me.SimplaButton34.BackColor = System.Drawing.Color.Transparent
+        Me.SimplaButton34.ColorScheme = Dark_Souls_2_Basic_Tool.SimplaButton.ColorSchemes.DarkGray
+        Me.SimplaButton34.ForeColor = System.Drawing.Color.FromArgb(CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer))
+        Me.SimplaButton34.Location = New System.Drawing.Point(78, 18)
+        Me.SimplaButton34.Name = "SimplaButton34"
+        Me.SimplaButton34.Size = New System.Drawing.Size(40, 23)
+        Me.SimplaButton34.TabIndex = 14
+        Me.SimplaButton34.Text = "99"
         '
-        'NumericUpDown9
+        'SimplaButton41
         '
-        Me.NumericUpDown9.BackColor = System.Drawing.Color.FromArgb(CType(CType(34, Byte), Integer), CType(CType(34, Byte), Integer), CType(CType(34, Byte), Integer))
-        Me.NumericUpDown9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.NumericUpDown9.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.NumericUpDown9.ForeColor = System.Drawing.Color.White
-        Me.NumericUpDown9.Location = New System.Drawing.Point(7, 17)
-        Me.NumericUpDown9.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown9.Minimum = New Decimal(New Integer() {1, 0, 0, 0})
-        Me.NumericUpDown9.Name = "NumericUpDown9"
-        Me.NumericUpDown9.Size = New System.Drawing.Size(73, 26)
-        Me.NumericUpDown9.TabIndex = 23
-        Me.NumericUpDown9.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown9.Value = New Decimal(New Integer() {1, 0, 0, 0})
+        Me.SimplaButton41.BackColor = System.Drawing.Color.Transparent
+        Me.SimplaButton41.ColorScheme = Dark_Souls_2_Basic_Tool.SimplaButton.ColorSchemes.DarkGray
+        Me.SimplaButton41.ForeColor = System.Drawing.Color.FromArgb(CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer))
+        Me.SimplaButton41.Location = New System.Drawing.Point(6, 18)
+        Me.SimplaButton41.Name = "SimplaButton41"
+        Me.SimplaButton41.Size = New System.Drawing.Size(66, 23)
+        Me.SimplaButton41.TabIndex = 13
+        Me.SimplaButton41.Text = "255"
+        '
+        'SimplaButton43
+        '
+        Me.SimplaButton43.BackColor = System.Drawing.Color.Transparent
+        Me.SimplaButton43.ColorScheme = Dark_Souls_2_Basic_Tool.SimplaButton.ColorSchemes.DarkGray
+        Me.SimplaButton43.ForeColor = System.Drawing.Color.FromArgb(CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer))
+        Me.SimplaButton43.Location = New System.Drawing.Point(124, 18)
+        Me.SimplaButton43.Name = "SimplaButton43"
+        Me.SimplaButton43.Size = New System.Drawing.Size(40, 23)
+        Me.SimplaButton43.TabIndex = 12
+        Me.SimplaButton43.Text = "0"
         '
         'GroupBox5
         '
-        Me.GroupBox5.Controls.Add(Me.SimplaButton18)
-        Me.GroupBox5.Controls.Add(Me.NumericUpDown4)
+        Me.GroupBox5.Controls.Add(Me.SimplaButton22)
+        Me.GroupBox5.Controls.Add(Me.SimplaButton23)
+        Me.GroupBox5.Controls.Add(Me.SimplaButton33)
         Me.GroupBox5.ForeColor = System.Drawing.Color.White
-        Me.GroupBox5.Location = New System.Drawing.Point(209, 255)
+        Me.GroupBox5.Location = New System.Drawing.Point(91, 192)
         Me.GroupBox5.Name = "GroupBox5"
-        Me.GroupBox5.Size = New System.Drawing.Size(147, 49)
-        Me.GroupBox5.TabIndex = 10
+        Me.GroupBox5.Size = New System.Drawing.Size(170, 49)
+        Me.GroupBox5.TabIndex = 15
         Me.GroupBox5.TabStop = False
-        Me.GroupBox5.Text = "ADP:"
-        '
-        'SimplaButton18
-        '
-        Me.SimplaButton18.BackColor = System.Drawing.Color.Transparent
-        Me.SimplaButton18.ColorScheme = Dark_Souls_2_Basic_Tool.SimplaButton.ColorSchemes.DarkGray
-        Me.SimplaButton18.ForeColor = System.Drawing.Color.FromArgb(CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer))
-        Me.SimplaButton18.Location = New System.Drawing.Point(86, 18)
-        Me.SimplaButton18.Name = "SimplaButton18"
-        Me.SimplaButton18.Size = New System.Drawing.Size(53, 23)
-        Me.SimplaButton18.TabIndex = 14
-        Me.SimplaButton18.Text = "Set"
-        '
-        'NumericUpDown4
-        '
-        Me.NumericUpDown4.BackColor = System.Drawing.Color.FromArgb(CType(CType(34, Byte), Integer), CType(CType(34, Byte), Integer), CType(CType(34, Byte), Integer))
-        Me.NumericUpDown4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.NumericUpDown4.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.NumericUpDown4.ForeColor = System.Drawing.Color.White
-        Me.NumericUpDown4.Location = New System.Drawing.Point(7, 15)
-        Me.NumericUpDown4.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown4.Minimum = New Decimal(New Integer() {1, 0, 0, 0})
-        Me.NumericUpDown4.Name = "NumericUpDown4"
-        Me.NumericUpDown4.Size = New System.Drawing.Size(73, 26)
-        Me.NumericUpDown4.TabIndex = 13
-        Me.NumericUpDown4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown4.Value = New Decimal(New Integer() {1, 0, 0, 0})
-        '
-        'GroupBox3
-        '
-        Me.GroupBox3.Controls.Add(Me.SimplaButton20)
-        Me.GroupBox3.Controls.Add(Me.NumericUpDown6)
-        Me.GroupBox3.ForeColor = System.Drawing.Color.White
-        Me.GroupBox3.Location = New System.Drawing.Point(373, 32)
-        Me.GroupBox3.Name = "GroupBox3"
-        Me.GroupBox3.Size = New System.Drawing.Size(147, 49)
-        Me.GroupBox3.TabIndex = 10
-        Me.GroupBox3.TabStop = False
-        Me.GroupBox3.Text = "END:"
-        '
-        'SimplaButton20
-        '
-        Me.SimplaButton20.BackColor = System.Drawing.Color.Transparent
-        Me.SimplaButton20.ColorScheme = Dark_Souls_2_Basic_Tool.SimplaButton.ColorSchemes.DarkGray
-        Me.SimplaButton20.ForeColor = System.Drawing.Color.FromArgb(CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer))
-        Me.SimplaButton20.Location = New System.Drawing.Point(86, 18)
-        Me.SimplaButton20.Name = "SimplaButton20"
-        Me.SimplaButton20.Size = New System.Drawing.Size(53, 23)
-        Me.SimplaButton20.TabIndex = 18
-        Me.SimplaButton20.Text = "Set"
-        '
-        'NumericUpDown6
-        '
-        Me.NumericUpDown6.BackColor = System.Drawing.Color.FromArgb(CType(CType(34, Byte), Integer), CType(CType(34, Byte), Integer), CType(CType(34, Byte), Integer))
-        Me.NumericUpDown6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.NumericUpDown6.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.NumericUpDown6.ForeColor = System.Drawing.Color.White
-        Me.NumericUpDown6.Location = New System.Drawing.Point(7, 15)
-        Me.NumericUpDown6.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown6.Minimum = New Decimal(New Integer() {1, 0, 0, 0})
-        Me.NumericUpDown6.Name = "NumericUpDown6"
-        Me.NumericUpDown6.Size = New System.Drawing.Size(73, 26)
-        Me.NumericUpDown6.TabIndex = 17
-        Me.NumericUpDown6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown6.Value = New Decimal(New Integer() {1, 0, 0, 0})
-        '
-        'GroupBox4
-        '
-        Me.GroupBox4.Controls.Add(Me.SimplaButton22)
-        Me.GroupBox4.Controls.Add(Me.NumericUpDown8)
-        Me.GroupBox4.ForeColor = System.Drawing.Color.White
-        Me.GroupBox4.Location = New System.Drawing.Point(373, 180)
-        Me.GroupBox4.Name = "GroupBox4"
-        Me.GroupBox4.Size = New System.Drawing.Size(147, 49)
-        Me.GroupBox4.TabIndex = 10
-        Me.GroupBox4.TabStop = False
-        Me.GroupBox4.Text = "DEX:"
+        Me.GroupBox5.Text = "END level:"
         '
         'SimplaButton22
         '
         Me.SimplaButton22.BackColor = System.Drawing.Color.Transparent
         Me.SimplaButton22.ColorScheme = Dark_Souls_2_Basic_Tool.SimplaButton.ColorSchemes.DarkGray
         Me.SimplaButton22.ForeColor = System.Drawing.Color.FromArgb(CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer))
-        Me.SimplaButton22.Location = New System.Drawing.Point(86, 18)
+        Me.SimplaButton22.Location = New System.Drawing.Point(78, 18)
         Me.SimplaButton22.Name = "SimplaButton22"
-        Me.SimplaButton22.Size = New System.Drawing.Size(53, 23)
-        Me.SimplaButton22.TabIndex = 22
-        Me.SimplaButton22.Text = "Set"
+        Me.SimplaButton22.Size = New System.Drawing.Size(40, 23)
+        Me.SimplaButton22.TabIndex = 14
+        Me.SimplaButton22.Text = "99"
         '
-        'NumericUpDown8
+        'SimplaButton23
         '
-        Me.NumericUpDown8.BackColor = System.Drawing.Color.FromArgb(CType(CType(34, Byte), Integer), CType(CType(34, Byte), Integer), CType(CType(34, Byte), Integer))
-        Me.NumericUpDown8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.NumericUpDown8.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.NumericUpDown8.ForeColor = System.Drawing.Color.White
-        Me.NumericUpDown8.Location = New System.Drawing.Point(7, 15)
-        Me.NumericUpDown8.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown8.Minimum = New Decimal(New Integer() {1, 0, 0, 0})
-        Me.NumericUpDown8.Name = "NumericUpDown8"
-        Me.NumericUpDown8.Size = New System.Drawing.Size(73, 26)
-        Me.NumericUpDown8.TabIndex = 21
-        Me.NumericUpDown8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown8.Value = New Decimal(New Integer() {1, 0, 0, 0})
+        Me.SimplaButton23.BackColor = System.Drawing.Color.Transparent
+        Me.SimplaButton23.ColorScheme = Dark_Souls_2_Basic_Tool.SimplaButton.ColorSchemes.DarkGray
+        Me.SimplaButton23.ForeColor = System.Drawing.Color.FromArgb(CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer))
+        Me.SimplaButton23.Location = New System.Drawing.Point(6, 18)
+        Me.SimplaButton23.Name = "SimplaButton23"
+        Me.SimplaButton23.Size = New System.Drawing.Size(66, 23)
+        Me.SimplaButton23.TabIndex = 13
+        Me.SimplaButton23.Text = "255"
+        '
+        'SimplaButton33
+        '
+        Me.SimplaButton33.BackColor = System.Drawing.Color.Transparent
+        Me.SimplaButton33.ColorScheme = Dark_Souls_2_Basic_Tool.SimplaButton.ColorSchemes.DarkGray
+        Me.SimplaButton33.ForeColor = System.Drawing.Color.FromArgb(CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer))
+        Me.SimplaButton33.Location = New System.Drawing.Point(124, 18)
+        Me.SimplaButton33.Name = "SimplaButton33"
+        Me.SimplaButton33.Size = New System.Drawing.Size(40, 23)
+        Me.SimplaButton33.TabIndex = 12
+        Me.SimplaButton33.Text = "0"
+        '
+        'GroupBox4
+        '
+        Me.GroupBox4.Controls.Add(Me.SimplaButton19)
+        Me.GroupBox4.Controls.Add(Me.SimplaButton20)
+        Me.GroupBox4.Controls.Add(Me.SimplaButton21)
+        Me.GroupBox4.ForeColor = System.Drawing.Color.White
+        Me.GroupBox4.Location = New System.Drawing.Point(279, 192)
+        Me.GroupBox4.Name = "GroupBox4"
+        Me.GroupBox4.Size = New System.Drawing.Size(170, 49)
+        Me.GroupBox4.TabIndex = 15
+        Me.GroupBox4.TabStop = False
+        Me.GroupBox4.Text = "ADP level:"
+        '
+        'SimplaButton19
+        '
+        Me.SimplaButton19.BackColor = System.Drawing.Color.Transparent
+        Me.SimplaButton19.ColorScheme = Dark_Souls_2_Basic_Tool.SimplaButton.ColorSchemes.DarkGray
+        Me.SimplaButton19.ForeColor = System.Drawing.Color.FromArgb(CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer))
+        Me.SimplaButton19.Location = New System.Drawing.Point(78, 18)
+        Me.SimplaButton19.Name = "SimplaButton19"
+        Me.SimplaButton19.Size = New System.Drawing.Size(40, 23)
+        Me.SimplaButton19.TabIndex = 14
+        Me.SimplaButton19.Text = "99"
+        '
+        'SimplaButton20
+        '
+        Me.SimplaButton20.BackColor = System.Drawing.Color.Transparent
+        Me.SimplaButton20.ColorScheme = Dark_Souls_2_Basic_Tool.SimplaButton.ColorSchemes.DarkGray
+        Me.SimplaButton20.ForeColor = System.Drawing.Color.FromArgb(CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer))
+        Me.SimplaButton20.Location = New System.Drawing.Point(6, 18)
+        Me.SimplaButton20.Name = "SimplaButton20"
+        Me.SimplaButton20.Size = New System.Drawing.Size(66, 23)
+        Me.SimplaButton20.TabIndex = 13
+        Me.SimplaButton20.Text = "255"
+        '
+        'SimplaButton21
+        '
+        Me.SimplaButton21.BackColor = System.Drawing.Color.Transparent
+        Me.SimplaButton21.ColorScheme = Dark_Souls_2_Basic_Tool.SimplaButton.ColorSchemes.DarkGray
+        Me.SimplaButton21.ForeColor = System.Drawing.Color.FromArgb(CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer))
+        Me.SimplaButton21.Location = New System.Drawing.Point(124, 18)
+        Me.SimplaButton21.Name = "SimplaButton21"
+        Me.SimplaButton21.Size = New System.Drawing.Size(40, 23)
+        Me.SimplaButton21.TabIndex = 12
+        Me.SimplaButton21.Text = "0"
+        '
+        'GroupBox3
+        '
+        Me.GroupBox3.Controls.Add(Me.SimplaButton16)
+        Me.GroupBox3.Controls.Add(Me.SimplaButton17)
+        Me.GroupBox3.Controls.Add(Me.SimplaButton18)
+        Me.GroupBox3.ForeColor = System.Drawing.Color.White
+        Me.GroupBox3.Location = New System.Drawing.Point(279, 137)
+        Me.GroupBox3.Name = "GroupBox3"
+        Me.GroupBox3.Size = New System.Drawing.Size(170, 49)
+        Me.GroupBox3.TabIndex = 15
+        Me.GroupBox3.TabStop = False
+        Me.GroupBox3.Text = "DEX level:"
+        '
+        'SimplaButton16
+        '
+        Me.SimplaButton16.BackColor = System.Drawing.Color.Transparent
+        Me.SimplaButton16.ColorScheme = Dark_Souls_2_Basic_Tool.SimplaButton.ColorSchemes.DarkGray
+        Me.SimplaButton16.ForeColor = System.Drawing.Color.FromArgb(CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer))
+        Me.SimplaButton16.Location = New System.Drawing.Point(78, 18)
+        Me.SimplaButton16.Name = "SimplaButton16"
+        Me.SimplaButton16.Size = New System.Drawing.Size(40, 23)
+        Me.SimplaButton16.TabIndex = 14
+        Me.SimplaButton16.Text = "99"
+        '
+        'SimplaButton17
+        '
+        Me.SimplaButton17.BackColor = System.Drawing.Color.Transparent
+        Me.SimplaButton17.ColorScheme = Dark_Souls_2_Basic_Tool.SimplaButton.ColorSchemes.DarkGray
+        Me.SimplaButton17.ForeColor = System.Drawing.Color.FromArgb(CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer))
+        Me.SimplaButton17.Location = New System.Drawing.Point(6, 18)
+        Me.SimplaButton17.Name = "SimplaButton17"
+        Me.SimplaButton17.Size = New System.Drawing.Size(66, 23)
+        Me.SimplaButton17.TabIndex = 13
+        Me.SimplaButton17.Text = "255"
+        '
+        'SimplaButton18
+        '
+        Me.SimplaButton18.BackColor = System.Drawing.Color.Transparent
+        Me.SimplaButton18.ColorScheme = Dark_Souls_2_Basic_Tool.SimplaButton.ColorSchemes.DarkGray
+        Me.SimplaButton18.ForeColor = System.Drawing.Color.FromArgb(CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer))
+        Me.SimplaButton18.Location = New System.Drawing.Point(124, 18)
+        Me.SimplaButton18.Name = "SimplaButton18"
+        Me.SimplaButton18.Size = New System.Drawing.Size(40, 23)
+        Me.SimplaButton18.TabIndex = 12
+        Me.SimplaButton18.Text = "0"
         '
         'GroupBox2
         '
+        Me.GroupBox2.Controls.Add(Me.SimplaButton31)
+        Me.GroupBox2.Controls.Add(Me.SimplaButton30)
         Me.GroupBox2.Controls.Add(Me.SimplaButton15)
-        Me.GroupBox2.Controls.Add(Me.NumericUpDown2)
         Me.GroupBox2.ForeColor = System.Drawing.Color.White
-        Me.GroupBox2.Location = New System.Drawing.Point(209, 33)
+        Me.GroupBox2.Location = New System.Drawing.Point(91, 137)
         Me.GroupBox2.Name = "GroupBox2"
-        Me.GroupBox2.Size = New System.Drawing.Size(147, 49)
+        Me.GroupBox2.Size = New System.Drawing.Size(170, 49)
         Me.GroupBox2.TabIndex = 8
         Me.GroupBox2.TabStop = False
-        Me.GroupBox2.Text = "VGR:"
+        Me.GroupBox2.Text = "VGR level:"
+        '
+        'SimplaButton31
+        '
+        Me.SimplaButton31.BackColor = System.Drawing.Color.Transparent
+        Me.SimplaButton31.ColorScheme = Dark_Souls_2_Basic_Tool.SimplaButton.ColorSchemes.DarkGray
+        Me.SimplaButton31.ForeColor = System.Drawing.Color.FromArgb(CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer))
+        Me.SimplaButton31.Location = New System.Drawing.Point(78, 18)
+        Me.SimplaButton31.Name = "SimplaButton31"
+        Me.SimplaButton31.Size = New System.Drawing.Size(40, 23)
+        Me.SimplaButton31.TabIndex = 14
+        Me.SimplaButton31.Text = "99"
+        '
+        'SimplaButton30
+        '
+        Me.SimplaButton30.BackColor = System.Drawing.Color.Transparent
+        Me.SimplaButton30.ColorScheme = Dark_Souls_2_Basic_Tool.SimplaButton.ColorSchemes.DarkGray
+        Me.SimplaButton30.ForeColor = System.Drawing.Color.FromArgb(CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer))
+        Me.SimplaButton30.Location = New System.Drawing.Point(6, 18)
+        Me.SimplaButton30.Name = "SimplaButton30"
+        Me.SimplaButton30.Size = New System.Drawing.Size(66, 23)
+        Me.SimplaButton30.TabIndex = 13
+        Me.SimplaButton30.Text = "255"
         '
         'SimplaButton15
         '
         Me.SimplaButton15.BackColor = System.Drawing.Color.Transparent
         Me.SimplaButton15.ColorScheme = Dark_Souls_2_Basic_Tool.SimplaButton.ColorSchemes.DarkGray
         Me.SimplaButton15.ForeColor = System.Drawing.Color.FromArgb(CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer))
-        Me.SimplaButton15.Location = New System.Drawing.Point(86, 18)
+        Me.SimplaButton15.Location = New System.Drawing.Point(124, 18)
         Me.SimplaButton15.Name = "SimplaButton15"
-        Me.SimplaButton15.Size = New System.Drawing.Size(53, 23)
+        Me.SimplaButton15.Size = New System.Drawing.Size(40, 23)
         Me.SimplaButton15.TabIndex = 12
-        Me.SimplaButton15.Text = "Set"
-        '
-        'NumericUpDown2
-        '
-        Me.NumericUpDown2.BackColor = System.Drawing.Color.FromArgb(CType(CType(34, Byte), Integer), CType(CType(34, Byte), Integer), CType(CType(34, Byte), Integer))
-        Me.NumericUpDown2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.NumericUpDown2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.NumericUpDown2.ForeColor = System.Drawing.Color.White
-        Me.NumericUpDown2.Location = New System.Drawing.Point(7, 15)
-        Me.NumericUpDown2.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown2.Minimum = New Decimal(New Integer() {1, 0, 0, 0})
-        Me.NumericUpDown2.Name = "NumericUpDown2"
-        Me.NumericUpDown2.Size = New System.Drawing.Size(73, 26)
-        Me.NumericUpDown2.TabIndex = 1
-        Me.NumericUpDown2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown2.Value = New Decimal(New Integer() {1, 0, 0, 0})
-        '
-        'SimplaButton14
-        '
-        Me.SimplaButton14.BackColor = System.Drawing.Color.Transparent
-        Me.SimplaButton14.ColorScheme = Dark_Souls_2_Basic_Tool.SimplaButton.ColorSchemes.DarkGray
-        Me.SimplaButton14.ForeColor = System.Drawing.Color.FromArgb(CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer))
-        Me.SimplaButton14.Location = New System.Drawing.Point(6, 9)
-        Me.SimplaButton14.Name = "SimplaButton14"
-        Me.SimplaButton14.Size = New System.Drawing.Size(188, 41)
-        Me.SimplaButton14.TabIndex = 7
-        Me.SimplaButton14.Text = "Start 0"
-        '
-        'SimplaButton13
-        '
-        Me.SimplaButton13.BackColor = System.Drawing.Color.Transparent
-        Me.SimplaButton13.ColorScheme = Dark_Souls_2_Basic_Tool.SimplaButton.ColorSchemes.DarkGray
-        Me.SimplaButton13.ForeColor = System.Drawing.Color.FromArgb(CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer))
-        Me.SimplaButton13.Location = New System.Drawing.Point(6, 57)
-        Me.SimplaButton13.Name = "SimplaButton13"
-        Me.SimplaButton13.Size = New System.Drawing.Size(188, 25)
-        Me.SimplaButton13.TabIndex = 6
-        Me.SimplaButton13.Text = "Stats 99"
-        '
-        'SimplaButton12
-        '
-        Me.SimplaButton12.BackColor = System.Drawing.Color.Transparent
-        Me.SimplaButton12.ColorScheme = Dark_Souls_2_Basic_Tool.SimplaButton.ColorSchemes.DarkGray
-        Me.SimplaButton12.ForeColor = System.Drawing.Color.FromArgb(CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer))
-        Me.SimplaButton12.Location = New System.Drawing.Point(8, 87)
-        Me.SimplaButton12.Name = "SimplaButton12"
-        Me.SimplaButton12.Size = New System.Drawing.Size(188, 25)
-        Me.SimplaButton12.TabIndex = 5
-        Me.SimplaButton12.Text = "Stats 255"
-        '
-        'SimplaButton11
-        '
-        Me.SimplaButton11.BackColor = System.Drawing.Color.Transparent
-        Me.SimplaButton11.ColorScheme = Dark_Souls_2_Basic_Tool.SimplaButton.ColorSchemes.DarkGray
-        Me.SimplaButton11.ForeColor = System.Drawing.Color.FromArgb(CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer))
-        Me.SimplaButton11.Location = New System.Drawing.Point(8, 118)
-        Me.SimplaButton11.Name = "SimplaButton11"
-        Me.SimplaButton11.Size = New System.Drawing.Size(188, 26)
-        Me.SimplaButton11.TabIndex = 4
-        Me.SimplaButton11.Text = "GET Stats"
-        '
-        'SimplaButton9
-        '
-        Me.SimplaButton9.BackColor = System.Drawing.Color.Transparent
-        Me.SimplaButton9.ColorScheme = Dark_Souls_2_Basic_Tool.SimplaButton.ColorSchemes.DarkGray
-        Me.SimplaButton9.ForeColor = System.Drawing.Color.FromArgb(CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer))
-        Me.SimplaButton9.Location = New System.Drawing.Point(6, 150)
-        Me.SimplaButton9.Name = "SimplaButton9"
-        Me.SimplaButton9.Size = New System.Drawing.Size(188, 28)
-        Me.SimplaButton9.TabIndex = 3
-        Me.SimplaButton9.Text = "SET Stats"
-        '
-        'GroupBox1
-        '
-        Me.GroupBox1.Controls.Add(Me.Label24)
-        Me.GroupBox1.Controls.Add(Me.Label25)
-        Me.GroupBox1.Controls.Add(Me.Label26)
-        Me.GroupBox1.Controls.Add(Me.Label27)
-        Me.GroupBox1.Controls.Add(Me.Label28)
-        Me.GroupBox1.Controls.Add(Me.Label29)
-        Me.GroupBox1.Controls.Add(Me.Label30)
-        Me.GroupBox1.Controls.Add(Me.Label31)
-        Me.GroupBox1.Controls.Add(Me.Label32)
-        Me.GroupBox1.Controls.Add(Me.Label23)
-        Me.GroupBox1.Controls.Add(Me.Label22)
-        Me.GroupBox1.Controls.Add(Me.Label21)
-        Me.GroupBox1.Controls.Add(Me.Label20)
-        Me.GroupBox1.Controls.Add(Me.Label19)
-        Me.GroupBox1.Controls.Add(Me.Label18)
-        Me.GroupBox1.Controls.Add(Me.Label17)
-        Me.GroupBox1.Controls.Add(Me.Label16)
-        Me.GroupBox1.Controls.Add(Me.Label15)
-        Me.GroupBox1.Controls.Add(Me.Label14)
-        Me.GroupBox1.Controls.Add(Me.Label13)
-        Me.GroupBox1.Controls.Add(Me.Label2)
-        Me.GroupBox1.Controls.Add(Me.Label12)
-        Me.GroupBox1.Controls.Add(Me.Label11)
-        Me.GroupBox1.Controls.Add(Me.Label10)
-        Me.GroupBox1.Controls.Add(Me.Label9)
-        Me.GroupBox1.Controls.Add(Me.Label8)
-        Me.GroupBox1.Controls.Add(Me.Label7)
-        Me.GroupBox1.Controls.Add(Me.Label6)
-        Me.GroupBox1.Controls.Add(Me.Label5)
-        Me.GroupBox1.Controls.Add(Me.Label4)
-        Me.GroupBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox1.Location = New System.Drawing.Point(8, 181)
-        Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(188, 220)
-        Me.GroupBox1.TabIndex = 0
-        Me.GroupBox1.TabStop = False
-        '
-        'Label24
-        '
-        Me.Label24.AutoSize = True
-        Me.Label24.BackColor = System.Drawing.Color.Transparent
-        Me.Label24.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label24.Location = New System.Drawing.Point(135, 199)
-        Me.Label24.Name = "Label24"
-        Me.Label24.Size = New System.Drawing.Size(18, 20)
-        Me.Label24.TabIndex = 32
-        Me.Label24.Text = "0"
-        '
-        'Label25
-        '
-        Me.Label25.AutoSize = True
-        Me.Label25.BackColor = System.Drawing.Color.Transparent
-        Me.Label25.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label25.Location = New System.Drawing.Point(135, 179)
-        Me.Label25.Name = "Label25"
-        Me.Label25.Size = New System.Drawing.Size(18, 20)
-        Me.Label25.TabIndex = 31
-        Me.Label25.Text = "0"
-        '
-        'Label26
-        '
-        Me.Label26.AutoSize = True
-        Me.Label26.BackColor = System.Drawing.Color.Transparent
-        Me.Label26.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label26.Location = New System.Drawing.Point(135, 159)
-        Me.Label26.Name = "Label26"
-        Me.Label26.Size = New System.Drawing.Size(18, 20)
-        Me.Label26.TabIndex = 30
-        Me.Label26.Text = "0"
-        '
-        'Label27
-        '
-        Me.Label27.AutoSize = True
-        Me.Label27.BackColor = System.Drawing.Color.Transparent
-        Me.Label27.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label27.Location = New System.Drawing.Point(135, 139)
-        Me.Label27.Name = "Label27"
-        Me.Label27.Size = New System.Drawing.Size(18, 20)
-        Me.Label27.TabIndex = 29
-        Me.Label27.Text = "0"
-        '
-        'Label28
-        '
-        Me.Label28.AutoSize = True
-        Me.Label28.BackColor = System.Drawing.Color.Transparent
-        Me.Label28.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label28.Location = New System.Drawing.Point(135, 119)
-        Me.Label28.Name = "Label28"
-        Me.Label28.Size = New System.Drawing.Size(18, 20)
-        Me.Label28.TabIndex = 28
-        Me.Label28.Text = "0"
-        '
-        'Label29
-        '
-        Me.Label29.AutoSize = True
-        Me.Label29.BackColor = System.Drawing.Color.Transparent
-        Me.Label29.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label29.Location = New System.Drawing.Point(135, 99)
-        Me.Label29.Name = "Label29"
-        Me.Label29.Size = New System.Drawing.Size(18, 20)
-        Me.Label29.TabIndex = 27
-        Me.Label29.Text = "0"
-        '
-        'Label30
-        '
-        Me.Label30.AutoSize = True
-        Me.Label30.BackColor = System.Drawing.Color.Transparent
-        Me.Label30.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label30.Location = New System.Drawing.Point(135, 79)
-        Me.Label30.Name = "Label30"
-        Me.Label30.Size = New System.Drawing.Size(18, 20)
-        Me.Label30.TabIndex = 26
-        Me.Label30.Text = "0"
-        '
-        'Label31
-        '
-        Me.Label31.AutoSize = True
-        Me.Label31.BackColor = System.Drawing.Color.Transparent
-        Me.Label31.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label31.Location = New System.Drawing.Point(135, 59)
-        Me.Label31.Name = "Label31"
-        Me.Label31.Size = New System.Drawing.Size(18, 20)
-        Me.Label31.TabIndex = 25
-        Me.Label31.Text = "0"
-        '
-        'Label32
-        '
-        Me.Label32.AutoSize = True
-        Me.Label32.BackColor = System.Drawing.Color.Transparent
-        Me.Label32.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label32.Location = New System.Drawing.Point(135, 39)
-        Me.Label32.Name = "Label32"
-        Me.Label32.Size = New System.Drawing.Size(18, 20)
-        Me.Label32.TabIndex = 24
-        Me.Label32.Text = "0"
-        '
-        'Label23
-        '
-        Me.Label23.AutoSize = True
-        Me.Label23.BackColor = System.Drawing.Color.Transparent
-        Me.Label23.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label23.Location = New System.Drawing.Point(76, 199)
-        Me.Label23.Name = "Label23"
-        Me.Label23.Size = New System.Drawing.Size(18, 20)
-        Me.Label23.TabIndex = 23
-        Me.Label23.Text = "0"
-        '
-        'Label22
-        '
-        Me.Label22.AutoSize = True
-        Me.Label22.BackColor = System.Drawing.Color.Transparent
-        Me.Label22.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label22.Location = New System.Drawing.Point(76, 179)
-        Me.Label22.Name = "Label22"
-        Me.Label22.Size = New System.Drawing.Size(18, 20)
-        Me.Label22.TabIndex = 22
-        Me.Label22.Text = "0"
-        '
-        'Label21
-        '
-        Me.Label21.AutoSize = True
-        Me.Label21.BackColor = System.Drawing.Color.Transparent
-        Me.Label21.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label21.Location = New System.Drawing.Point(76, 159)
-        Me.Label21.Name = "Label21"
-        Me.Label21.Size = New System.Drawing.Size(18, 20)
-        Me.Label21.TabIndex = 21
-        Me.Label21.Text = "0"
-        '
-        'Label20
-        '
-        Me.Label20.AutoSize = True
-        Me.Label20.BackColor = System.Drawing.Color.Transparent
-        Me.Label20.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label20.Location = New System.Drawing.Point(76, 139)
-        Me.Label20.Name = "Label20"
-        Me.Label20.Size = New System.Drawing.Size(18, 20)
-        Me.Label20.TabIndex = 20
-        Me.Label20.Text = "0"
-        '
-        'Label19
-        '
-        Me.Label19.AutoSize = True
-        Me.Label19.BackColor = System.Drawing.Color.Transparent
-        Me.Label19.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label19.Location = New System.Drawing.Point(76, 119)
-        Me.Label19.Name = "Label19"
-        Me.Label19.Size = New System.Drawing.Size(18, 20)
-        Me.Label19.TabIndex = 19
-        Me.Label19.Text = "0"
-        '
-        'Label18
-        '
-        Me.Label18.AutoSize = True
-        Me.Label18.BackColor = System.Drawing.Color.Transparent
-        Me.Label18.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label18.Location = New System.Drawing.Point(76, 99)
-        Me.Label18.Name = "Label18"
-        Me.Label18.Size = New System.Drawing.Size(18, 20)
-        Me.Label18.TabIndex = 18
-        Me.Label18.Text = "0"
-        '
-        'Label17
-        '
-        Me.Label17.AutoSize = True
-        Me.Label17.BackColor = System.Drawing.Color.Transparent
-        Me.Label17.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label17.Location = New System.Drawing.Point(76, 79)
-        Me.Label17.Name = "Label17"
-        Me.Label17.Size = New System.Drawing.Size(18, 20)
-        Me.Label17.TabIndex = 17
-        Me.Label17.Text = "0"
-        '
-        'Label16
-        '
-        Me.Label16.AutoSize = True
-        Me.Label16.BackColor = System.Drawing.Color.Transparent
-        Me.Label16.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label16.Location = New System.Drawing.Point(76, 59)
-        Me.Label16.Name = "Label16"
-        Me.Label16.Size = New System.Drawing.Size(18, 20)
-        Me.Label16.TabIndex = 16
-        Me.Label16.Text = "0"
-        '
-        'Label15
-        '
-        Me.Label15.AutoSize = True
-        Me.Label15.BackColor = System.Drawing.Color.Transparent
-        Me.Label15.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label15.Location = New System.Drawing.Point(76, 39)
-        Me.Label15.Name = "Label15"
-        Me.Label15.Size = New System.Drawing.Size(18, 20)
-        Me.Label15.TabIndex = 15
-        Me.Label15.Text = "0"
-        '
-        'Label14
-        '
-        Me.Label14.AutoSize = True
-        Me.Label14.BackColor = System.Drawing.Color.Transparent
-        Me.Label14.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label14.Location = New System.Drawing.Point(123, 19)
-        Me.Label14.Name = "Label14"
-        Me.Label14.Size = New System.Drawing.Size(45, 20)
-        Me.Label14.TabIndex = 14
-        Me.Label14.Text = "Next;"
-        '
-        'Label13
-        '
-        Me.Label13.AutoSize = True
-        Me.Label13.BackColor = System.Drawing.Color.Transparent
-        Me.Label13.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label13.Location = New System.Drawing.Point(66, 19)
-        Me.Label13.Name = "Label13"
-        Me.Label13.Size = New System.Drawing.Size(42, 20)
-        Me.Label13.TabIndex = 13
-        Me.Label13.Text = "You;"
-        '
-        'Label2
-        '
-        Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(10, 0)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(43, 16)
-        Me.Label2.TabIndex = 2
-        Me.Label2.Text = "Stats"
-        '
-        'Label12
-        '
-        Me.Label12.AutoSize = True
-        Me.Label12.BackColor = System.Drawing.Color.Transparent
-        Me.Label12.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label12.Location = New System.Drawing.Point(6, 199)
-        Me.Label12.Name = "Label12"
-        Me.Label12.Size = New System.Drawing.Size(48, 20)
-        Me.Label12.TabIndex = 12
-        Me.Label12.Text = "FTH :"
-        '
-        'Label11
-        '
-        Me.Label11.AutoSize = True
-        Me.Label11.BackColor = System.Drawing.Color.Transparent
-        Me.Label11.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label11.Location = New System.Drawing.Point(6, 59)
-        Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(51, 20)
-        Me.Label11.TabIndex = 11
-        Me.Label11.Text = "END :"
-        '
-        'Label10
-        '
-        Me.Label10.AutoSize = True
-        Me.Label10.BackColor = System.Drawing.Color.Transparent
-        Me.Label10.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label10.Location = New System.Drawing.Point(6, 139)
-        Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(51, 20)
-        Me.Label10.TabIndex = 10
-        Me.Label10.Text = "DEX :"
-        '
-        'Label9
-        '
-        Me.Label9.AutoSize = True
-        Me.Label9.BackColor = System.Drawing.Color.Transparent
-        Me.Label9.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label9.Location = New System.Drawing.Point(6, 79)
-        Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(42, 20)
-        Me.Label9.TabIndex = 9
-        Me.Label9.Text = "VIT :"
-        '
-        'Label8
-        '
-        Me.Label8.AutoSize = True
-        Me.Label8.BackColor = System.Drawing.Color.Transparent
-        Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label8.Location = New System.Drawing.Point(6, 99)
-        Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(48, 20)
-        Me.Label8.TabIndex = 8
-        Me.Label8.Text = "ATN :"
-        '
-        'Label7
-        '
-        Me.Label7.AutoSize = True
-        Me.Label7.BackColor = System.Drawing.Color.Transparent
-        Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.Location = New System.Drawing.Point(6, 159)
-        Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(50, 20)
-        Me.Label7.TabIndex = 7
-        Me.Label7.Text = "ADP :"
-        '
-        'Label6
-        '
-        Me.Label6.AutoSize = True
-        Me.Label6.BackColor = System.Drawing.Color.Transparent
-        Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.Location = New System.Drawing.Point(6, 119)
-        Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(49, 20)
-        Me.Label6.TabIndex = 6
-        Me.Label6.Text = "STR :"
-        '
-        'Label5
-        '
-        Me.Label5.AutoSize = True
-        Me.Label5.BackColor = System.Drawing.Color.Transparent
-        Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.Location = New System.Drawing.Point(6, 179)
-        Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(42, 20)
-        Me.Label5.TabIndex = 5
-        Me.Label5.Text = "INT :"
-        '
-        'Label4
-        '
-        Me.Label4.AutoSize = True
-        Me.Label4.BackColor = System.Drawing.Color.Transparent
-        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(6, 39)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(53, 20)
-        Me.Label4.TabIndex = 4
-        Me.Label4.Text = "VGR :"
+        Me.SimplaButton15.Text = "0"
         '
         'TabPage5
         '
         Me.TabPage5.BackColor = System.Drawing.Color.FromArgb(CType(CType(34, Byte), Integer), CType(CType(34, Byte), Integer), CType(CType(34, Byte), Integer))
-        Me.TabPage5.Controls.Add(Me.InfluenceGroupBox1)
+        Me.TabPage5.Controls.Add(Me.GroupBox13)
         Me.TabPage5.Location = New System.Drawing.Point(4, 25)
         Me.TabPage5.Name = "TabPage5"
         Me.TabPage5.Size = New System.Drawing.Size(540, 405)
         Me.TabPage5.TabIndex = 4
         Me.TabPage5.Text = "Player"
         '
-        'InfluenceGroupBox1
+        'GroupBox13
         '
-        Me.InfluenceGroupBox1.BackColor = System.Drawing.Color.Transparent
-        Me.InfluenceGroupBox1.Controls.Add(Me.SimplaButton40)
-        Me.InfluenceGroupBox1.Controls.Add(Me.SimplaButton36)
-        Me.InfluenceGroupBox1.Controls.Add(Me.Label99)
-        Me.InfluenceGroupBox1.Controls.Add(Me.SimplaButton37)
-        Me.InfluenceGroupBox1.Controls.Add(Me.SimplaButton38)
-        Me.InfluenceGroupBox1.Controls.Add(Me.SimplaButton39)
-        Me.InfluenceGroupBox1.Controls.Add(Me.SimplaButton27)
-        Me.InfluenceGroupBox1.Controls.Add(Me.SimplaButton29)
-        Me.InfluenceGroupBox1.Controls.Add(Me.SimplaButton25)
-        Me.InfluenceGroupBox1.Controls.Add(Me.SimplaButton28)
-        Me.InfluenceGroupBox1.Controls.Add(Me.SimplaButton26)
-        Me.InfluenceGroupBox1.Location = New System.Drawing.Point(78, 94)
-        Me.InfluenceGroupBox1.Name = "InfluenceGroupBox1"
-        Me.InfluenceGroupBox1.Size = New System.Drawing.Size(385, 221)
-        Me.InfluenceGroupBox1.TabIndex = 6
-        Me.InfluenceGroupBox1.Text = "Color body Player"
+        Me.GroupBox13.Controls.Add(Me.SimplaButton29)
+        Me.GroupBox13.Controls.Add(Me.Label2)
+        Me.GroupBox13.Controls.Add(Me.SimplaButton71)
+        Me.GroupBox13.Controls.Add(Me.SimplaButton70)
+        Me.GroupBox13.Controls.Add(Me.SimplaButton64)
+        Me.GroupBox13.Controls.Add(Me.SimplaButton65)
+        Me.GroupBox13.Controls.Add(Me.SimplaButton66)
+        Me.GroupBox13.Controls.Add(Me.SimplaButton67)
+        Me.GroupBox13.Controls.Add(Me.SimplaButton68)
+        Me.GroupBox13.Controls.Add(Me.SimplaButton69)
+        Me.GroupBox13.Controls.Add(Me.SimplaButton58)
+        Me.GroupBox13.Controls.Add(Me.SimplaButton59)
+        Me.GroupBox13.Controls.Add(Me.SimplaButton60)
+        Me.GroupBox13.Controls.Add(Me.SimplaButton61)
+        Me.GroupBox13.Controls.Add(Me.SimplaButton62)
+        Me.GroupBox13.Controls.Add(Me.SimplaButton63)
+        Me.GroupBox13.Controls.Add(Me.SimplaButton10)
+        Me.GroupBox13.Controls.Add(Me.SimplaButton11)
+        Me.GroupBox13.Controls.Add(Me.SimplaButton13)
+        Me.GroupBox13.Controls.Add(Me.SimplaButton14)
+        Me.GroupBox13.Controls.Add(Me.SimplaButton24)
+        Me.GroupBox13.Controls.Add(Me.SimplaButton57)
+        Me.GroupBox13.Controls.Add(Me.SimplaButton36)
+        Me.GroupBox13.Controls.Add(Me.SimplaButton40)
+        Me.GroupBox13.Controls.Add(Me.SimplaButton39)
+        Me.GroupBox13.Controls.Add(Me.SimplaButton37)
+        Me.GroupBox13.Controls.Add(Me.SimplaButton38)
+        Me.GroupBox13.Controls.Add(Me.SimplaButton25)
+        Me.GroupBox13.Controls.Add(Me.SimplaButton27)
+        Me.GroupBox13.Controls.Add(Me.SimplaButton26)
+        Me.GroupBox13.Controls.Add(Me.SimplaButton28)
+        Me.GroupBox13.ForeColor = System.Drawing.Color.White
+        Me.GroupBox13.Location = New System.Drawing.Point(21, 18)
+        Me.GroupBox13.Name = "GroupBox13"
+        Me.GroupBox13.Size = New System.Drawing.Size(511, 370)
+        Me.GroupBox13.TabIndex = 17
+        Me.GroupBox13.TabStop = False
+        Me.GroupBox13.Text = "Color Body Player : "
         '
-        'SimplaButton40
+        'SimplaButton29
         '
-        Me.SimplaButton40.BackColor = System.Drawing.Color.Transparent
-        Me.SimplaButton40.ColorScheme = Dark_Souls_2_Basic_Tool.SimplaButton.ColorSchemes.DarkGray
-        Me.SimplaButton40.ForeColor = System.Drawing.Color.FromArgb(CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer))
-        Me.SimplaButton40.Location = New System.Drawing.Point(194, 178)
-        Me.SimplaButton40.Name = "SimplaButton40"
-        Me.SimplaButton40.Size = New System.Drawing.Size(171, 28)
-        Me.SimplaButton40.TabIndex = 10
-        Me.SimplaButton40.Text = "RANDOM OFF"
+        Me.SimplaButton29.BackColor = System.Drawing.Color.Transparent
+        Me.SimplaButton29.ColorScheme = Dark_Souls_2_Basic_Tool.SimplaButton.ColorSchemes.DarkGray
+        Me.SimplaButton29.ForeColor = System.Drawing.Color.FromArgb(CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer))
+        Me.SimplaButton29.Location = New System.Drawing.Point(11, 278)
+        Me.SimplaButton29.Name = "SimplaButton29"
+        Me.SimplaButton29.Size = New System.Drawing.Size(486, 52)
+        Me.SimplaButton29.TabIndex = 5
+        Me.SimplaButton29.Text = "Normal"
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Location = New System.Drawing.Point(447, 294)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(13, 13)
+        Me.Label2.TabIndex = 31
+        Me.Label2.Text = "0"
+        '
+        'SimplaButton71
+        '
+        Me.SimplaButton71.BackColor = System.Drawing.Color.Transparent
+        Me.SimplaButton71.ColorScheme = Dark_Souls_2_Basic_Tool.SimplaButton.ColorSchemes.DarkGray
+        Me.SimplaButton71.ForeColor = System.Drawing.Color.FromArgb(CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer))
+        Me.SimplaButton71.Location = New System.Drawing.Point(385, 228)
+        Me.SimplaButton71.Name = "SimplaButton71"
+        Me.SimplaButton71.Size = New System.Drawing.Size(120, 44)
+        Me.SimplaButton71.TabIndex = 30
+        Me.SimplaButton71.Text = "Transparent"
+        '
+        'SimplaButton70
+        '
+        Me.SimplaButton70.BackColor = System.Drawing.Color.Transparent
+        Me.SimplaButton70.ColorScheme = Dark_Souls_2_Basic_Tool.SimplaButton.ColorSchemes.DarkGray
+        Me.SimplaButton70.ForeColor = System.Drawing.Color.FromArgb(CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer))
+        Me.SimplaButton70.Location = New System.Drawing.Point(259, 228)
+        Me.SimplaButton70.Name = "SimplaButton70"
+        Me.SimplaButton70.Size = New System.Drawing.Size(120, 44)
+        Me.SimplaButton70.TabIndex = 29
+        Me.SimplaButton70.Text = "FLOU 3"
+        '
+        'SimplaButton64
+        '
+        Me.SimplaButton64.BackColor = System.Drawing.Color.Transparent
+        Me.SimplaButton64.ColorScheme = Dark_Souls_2_Basic_Tool.SimplaButton.ColorSchemes.DarkGray
+        Me.SimplaButton64.Enabled = False
+        Me.SimplaButton64.ForeColor = System.Drawing.Color.FromArgb(CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer))
+        Me.SimplaButton64.Location = New System.Drawing.Point(385, 92)
+        Me.SimplaButton64.Name = "SimplaButton64"
+        Me.SimplaButton64.Size = New System.Drawing.Size(120, 28)
+        Me.SimplaButton64.TabIndex = 28
+        Me.SimplaButton64.Text = "------"
+        '
+        'SimplaButton65
+        '
+        Me.SimplaButton65.BackColor = System.Drawing.Color.Transparent
+        Me.SimplaButton65.ColorScheme = Dark_Souls_2_Basic_Tool.SimplaButton.ColorSchemes.DarkGray
+        Me.SimplaButton65.Enabled = False
+        Me.SimplaButton65.ForeColor = System.Drawing.Color.FromArgb(CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer))
+        Me.SimplaButton65.Location = New System.Drawing.Point(385, 58)
+        Me.SimplaButton65.Name = "SimplaButton65"
+        Me.SimplaButton65.Size = New System.Drawing.Size(120, 28)
+        Me.SimplaButton65.TabIndex = 27
+        Me.SimplaButton65.Text = "-----"
+        '
+        'SimplaButton66
+        '
+        Me.SimplaButton66.BackColor = System.Drawing.Color.Transparent
+        Me.SimplaButton66.ColorScheme = Dark_Souls_2_Basic_Tool.SimplaButton.ColorSchemes.DarkGray
+        Me.SimplaButton66.ForeColor = System.Drawing.Color.FromArgb(CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer))
+        Me.SimplaButton66.Location = New System.Drawing.Point(385, 24)
+        Me.SimplaButton66.Name = "SimplaButton66"
+        Me.SimplaButton66.Size = New System.Drawing.Size(120, 28)
+        Me.SimplaButton66.TabIndex = 26
+        Me.SimplaButton66.Text = "BLACK"
+        '
+        'SimplaButton67
+        '
+        Me.SimplaButton67.BackColor = System.Drawing.Color.Transparent
+        Me.SimplaButton67.ColorScheme = Dark_Souls_2_Basic_Tool.SimplaButton.ColorSchemes.DarkGray
+        Me.SimplaButton67.ForeColor = System.Drawing.Color.FromArgb(CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer))
+        Me.SimplaButton67.Location = New System.Drawing.Point(385, 126)
+        Me.SimplaButton67.Name = "SimplaButton67"
+        Me.SimplaButton67.Size = New System.Drawing.Size(120, 28)
+        Me.SimplaButton67.TabIndex = 23
+        Me.SimplaButton67.Text = "BLUE 4"
+        '
+        'SimplaButton68
+        '
+        Me.SimplaButton68.BackColor = System.Drawing.Color.Transparent
+        Me.SimplaButton68.ColorScheme = Dark_Souls_2_Basic_Tool.SimplaButton.ColorSchemes.DarkGray
+        Me.SimplaButton68.ForeColor = System.Drawing.Color.FromArgb(CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer))
+        Me.SimplaButton68.Location = New System.Drawing.Point(385, 194)
+        Me.SimplaButton68.Name = "SimplaButton68"
+        Me.SimplaButton68.Size = New System.Drawing.Size(120, 28)
+        Me.SimplaButton68.TabIndex = 25
+        Me.SimplaButton68.Text = "RED 4"
+        '
+        'SimplaButton69
+        '
+        Me.SimplaButton69.BackColor = System.Drawing.Color.Transparent
+        Me.SimplaButton69.ColorScheme = Dark_Souls_2_Basic_Tool.SimplaButton.ColorSchemes.DarkGray
+        Me.SimplaButton69.ForeColor = System.Drawing.Color.FromArgb(CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer))
+        Me.SimplaButton69.Location = New System.Drawing.Point(385, 160)
+        Me.SimplaButton69.Name = "SimplaButton69"
+        Me.SimplaButton69.Size = New System.Drawing.Size(120, 28)
+        Me.SimplaButton69.TabIndex = 24
+        Me.SimplaButton69.Text = "GREEN 4"
+        '
+        'SimplaButton58
+        '
+        Me.SimplaButton58.BackColor = System.Drawing.Color.Transparent
+        Me.SimplaButton58.ColorScheme = Dark_Souls_2_Basic_Tool.SimplaButton.ColorSchemes.DarkGray
+        Me.SimplaButton58.ForeColor = System.Drawing.Color.FromArgb(CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer))
+        Me.SimplaButton58.Location = New System.Drawing.Point(259, 92)
+        Me.SimplaButton58.Name = "SimplaButton58"
+        Me.SimplaButton58.Size = New System.Drawing.Size(120, 28)
+        Me.SimplaButton58.TabIndex = 22
+        Me.SimplaButton58.Text = "PINK 3"
+        '
+        'SimplaButton59
+        '
+        Me.SimplaButton59.BackColor = System.Drawing.Color.Transparent
+        Me.SimplaButton59.ColorScheme = Dark_Souls_2_Basic_Tool.SimplaButton.ColorSchemes.DarkGray
+        Me.SimplaButton59.ForeColor = System.Drawing.Color.FromArgb(CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer))
+        Me.SimplaButton59.Location = New System.Drawing.Point(259, 58)
+        Me.SimplaButton59.Name = "SimplaButton59"
+        Me.SimplaButton59.Size = New System.Drawing.Size(120, 28)
+        Me.SimplaButton59.TabIndex = 21
+        Me.SimplaButton59.Text = "YELLOW 3"
+        '
+        'SimplaButton60
+        '
+        Me.SimplaButton60.BackColor = System.Drawing.Color.Transparent
+        Me.SimplaButton60.ColorScheme = Dark_Souls_2_Basic_Tool.SimplaButton.ColorSchemes.DarkGray
+        Me.SimplaButton60.ForeColor = System.Drawing.Color.FromArgb(CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer))
+        Me.SimplaButton60.Location = New System.Drawing.Point(259, 24)
+        Me.SimplaButton60.Name = "SimplaButton60"
+        Me.SimplaButton60.Size = New System.Drawing.Size(120, 28)
+        Me.SimplaButton60.TabIndex = 20
+        Me.SimplaButton60.Text = "WHITE 3"
+        '
+        'SimplaButton61
+        '
+        Me.SimplaButton61.BackColor = System.Drawing.Color.Transparent
+        Me.SimplaButton61.ColorScheme = Dark_Souls_2_Basic_Tool.SimplaButton.ColorSchemes.DarkGray
+        Me.SimplaButton61.ForeColor = System.Drawing.Color.FromArgb(CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer))
+        Me.SimplaButton61.Location = New System.Drawing.Point(259, 126)
+        Me.SimplaButton61.Name = "SimplaButton61"
+        Me.SimplaButton61.Size = New System.Drawing.Size(120, 28)
+        Me.SimplaButton61.TabIndex = 17
+        Me.SimplaButton61.Text = "BLUE 3"
+        '
+        'SimplaButton62
+        '
+        Me.SimplaButton62.BackColor = System.Drawing.Color.Transparent
+        Me.SimplaButton62.ColorScheme = Dark_Souls_2_Basic_Tool.SimplaButton.ColorSchemes.DarkGray
+        Me.SimplaButton62.ForeColor = System.Drawing.Color.FromArgb(CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer))
+        Me.SimplaButton62.Location = New System.Drawing.Point(259, 194)
+        Me.SimplaButton62.Name = "SimplaButton62"
+        Me.SimplaButton62.Size = New System.Drawing.Size(120, 28)
+        Me.SimplaButton62.TabIndex = 19
+        Me.SimplaButton62.Text = "RED 3"
+        '
+        'SimplaButton63
+        '
+        Me.SimplaButton63.BackColor = System.Drawing.Color.Transparent
+        Me.SimplaButton63.ColorScheme = Dark_Souls_2_Basic_Tool.SimplaButton.ColorSchemes.DarkGray
+        Me.SimplaButton63.ForeColor = System.Drawing.Color.FromArgb(CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer))
+        Me.SimplaButton63.Location = New System.Drawing.Point(259, 160)
+        Me.SimplaButton63.Name = "SimplaButton63"
+        Me.SimplaButton63.Size = New System.Drawing.Size(120, 28)
+        Me.SimplaButton63.TabIndex = 18
+        Me.SimplaButton63.Text = "GREEN 3"
+        '
+        'SimplaButton10
+        '
+        Me.SimplaButton10.BackColor = System.Drawing.Color.Transparent
+        Me.SimplaButton10.ColorScheme = Dark_Souls_2_Basic_Tool.SimplaButton.ColorSchemes.DarkGray
+        Me.SimplaButton10.ForeColor = System.Drawing.Color.FromArgb(CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer))
+        Me.SimplaButton10.Location = New System.Drawing.Point(133, 92)
+        Me.SimplaButton10.Name = "SimplaButton10"
+        Me.SimplaButton10.Size = New System.Drawing.Size(120, 28)
+        Me.SimplaButton10.TabIndex = 16
+        Me.SimplaButton10.Text = "PINK 2"
+        '
+        'SimplaButton11
+        '
+        Me.SimplaButton11.BackColor = System.Drawing.Color.Transparent
+        Me.SimplaButton11.ColorScheme = Dark_Souls_2_Basic_Tool.SimplaButton.ColorSchemes.DarkGray
+        Me.SimplaButton11.ForeColor = System.Drawing.Color.FromArgb(CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer))
+        Me.SimplaButton11.Location = New System.Drawing.Point(133, 58)
+        Me.SimplaButton11.Name = "SimplaButton11"
+        Me.SimplaButton11.Size = New System.Drawing.Size(120, 28)
+        Me.SimplaButton11.TabIndex = 15
+        Me.SimplaButton11.Text = "YELLOW 2"
+        '
+        'SimplaButton13
+        '
+        Me.SimplaButton13.BackColor = System.Drawing.Color.Transparent
+        Me.SimplaButton13.ColorScheme = Dark_Souls_2_Basic_Tool.SimplaButton.ColorSchemes.DarkGray
+        Me.SimplaButton13.ForeColor = System.Drawing.Color.FromArgb(CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer))
+        Me.SimplaButton13.Location = New System.Drawing.Point(133, 24)
+        Me.SimplaButton13.Name = "SimplaButton13"
+        Me.SimplaButton13.Size = New System.Drawing.Size(120, 28)
+        Me.SimplaButton13.TabIndex = 14
+        Me.SimplaButton13.Text = "WHITE 2"
+        '
+        'SimplaButton14
+        '
+        Me.SimplaButton14.BackColor = System.Drawing.Color.Transparent
+        Me.SimplaButton14.ColorScheme = Dark_Souls_2_Basic_Tool.SimplaButton.ColorSchemes.DarkGray
+        Me.SimplaButton14.ForeColor = System.Drawing.Color.FromArgb(CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer))
+        Me.SimplaButton14.Location = New System.Drawing.Point(133, 126)
+        Me.SimplaButton14.Name = "SimplaButton14"
+        Me.SimplaButton14.Size = New System.Drawing.Size(120, 28)
+        Me.SimplaButton14.TabIndex = 11
+        Me.SimplaButton14.Text = "BLUE 2"
+        '
+        'SimplaButton24
+        '
+        Me.SimplaButton24.BackColor = System.Drawing.Color.Transparent
+        Me.SimplaButton24.ColorScheme = Dark_Souls_2_Basic_Tool.SimplaButton.ColorSchemes.DarkGray
+        Me.SimplaButton24.ForeColor = System.Drawing.Color.FromArgb(CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer))
+        Me.SimplaButton24.Location = New System.Drawing.Point(133, 194)
+        Me.SimplaButton24.Name = "SimplaButton24"
+        Me.SimplaButton24.Size = New System.Drawing.Size(120, 28)
+        Me.SimplaButton24.TabIndex = 13
+        Me.SimplaButton24.Text = "RED 2"
+        '
+        'SimplaButton57
+        '
+        Me.SimplaButton57.BackColor = System.Drawing.Color.Transparent
+        Me.SimplaButton57.ColorScheme = Dark_Souls_2_Basic_Tool.SimplaButton.ColorSchemes.DarkGray
+        Me.SimplaButton57.ForeColor = System.Drawing.Color.FromArgb(CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer))
+        Me.SimplaButton57.Location = New System.Drawing.Point(133, 160)
+        Me.SimplaButton57.Name = "SimplaButton57"
+        Me.SimplaButton57.Size = New System.Drawing.Size(120, 28)
+        Me.SimplaButton57.TabIndex = 12
+        Me.SimplaButton57.Text = "GREEN 2"
         '
         'SimplaButton36
         '
         Me.SimplaButton36.BackColor = System.Drawing.Color.Transparent
         Me.SimplaButton36.ColorScheme = Dark_Souls_2_Basic_Tool.SimplaButton.ColorSchemes.DarkGray
         Me.SimplaButton36.ForeColor = System.Drawing.Color.FromArgb(CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer))
-        Me.SimplaButton36.Location = New System.Drawing.Point(196, 110)
+        Me.SimplaButton36.Location = New System.Drawing.Point(7, 92)
         Me.SimplaButton36.Name = "SimplaButton36"
-        Me.SimplaButton36.Size = New System.Drawing.Size(169, 28)
+        Me.SimplaButton36.Size = New System.Drawing.Size(120, 28)
         Me.SimplaButton36.TabIndex = 8
-        Me.SimplaButton36.Text = "YELLOW"
+        Me.SimplaButton36.Text = "PINK"
         '
-        'Label99
+        'SimplaButton40
         '
-        Me.Label99.AutoSize = True
-        Me.Label99.Location = New System.Drawing.Point(369, 208)
-        Me.Label99.Name = "Label99"
-        Me.Label99.Size = New System.Drawing.Size(13, 13)
-        Me.Label99.TabIndex = 11
-        Me.Label99.Text = "1"
-        Me.Label99.Visible = False
+        Me.SimplaButton40.BackColor = System.Drawing.Color.Transparent
+        Me.SimplaButton40.ColorScheme = Dark_Souls_2_Basic_Tool.SimplaButton.ColorSchemes.DarkGray
+        Me.SimplaButton40.ForeColor = System.Drawing.Color.FromArgb(CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer))
+        Me.SimplaButton40.Location = New System.Drawing.Point(10, 336)
+        Me.SimplaButton40.Name = "SimplaButton40"
+        Me.SimplaButton40.Size = New System.Drawing.Size(487, 28)
+        Me.SimplaButton40.TabIndex = 10
+        Me.SimplaButton40.Text = "RANDOM ON"
+        '
+        'SimplaButton39
+        '
+        Me.SimplaButton39.BackColor = System.Drawing.Color.Transparent
+        Me.SimplaButton39.ColorScheme = Dark_Souls_2_Basic_Tool.SimplaButton.ColorSchemes.DarkGray
+        Me.SimplaButton39.ForeColor = System.Drawing.Color.FromArgb(CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer))
+        Me.SimplaButton39.Location = New System.Drawing.Point(7, 58)
+        Me.SimplaButton39.Name = "SimplaButton39"
+        Me.SimplaButton39.Size = New System.Drawing.Size(120, 28)
+        Me.SimplaButton39.TabIndex = 7
+        Me.SimplaButton39.Text = "YELLOW F"
         '
         'SimplaButton37
         '
         Me.SimplaButton37.BackColor = System.Drawing.Color.Transparent
         Me.SimplaButton37.ColorScheme = Dark_Souls_2_Basic_Tool.SimplaButton.ColorSchemes.DarkGray
         Me.SimplaButton37.ForeColor = System.Drawing.Color.FromArgb(CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer))
-        Me.SimplaButton37.Location = New System.Drawing.Point(196, 42)
+        Me.SimplaButton37.Location = New System.Drawing.Point(7, 24)
         Me.SimplaButton37.Name = "SimplaButton37"
-        Me.SimplaButton37.Size = New System.Drawing.Size(169, 28)
+        Me.SimplaButton37.Size = New System.Drawing.Size(120, 28)
         Me.SimplaButton37.TabIndex = 6
         Me.SimplaButton37.Text = "WHITE"
         '
@@ -1367,89 +1319,63 @@ Partial Class Form1
         Me.SimplaButton38.BackColor = System.Drawing.Color.Transparent
         Me.SimplaButton38.ColorScheme = Dark_Souls_2_Basic_Tool.SimplaButton.ColorSchemes.DarkGray
         Me.SimplaButton38.ForeColor = System.Drawing.Color.FromArgb(CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer))
-        Me.SimplaButton38.Location = New System.Drawing.Point(196, 144)
+        Me.SimplaButton38.Location = New System.Drawing.Point(133, 228)
         Me.SimplaButton38.Name = "SimplaButton38"
-        Me.SimplaButton38.Size = New System.Drawing.Size(169, 28)
+        Me.SimplaButton38.Size = New System.Drawing.Size(120, 44)
         Me.SimplaButton38.TabIndex = 9
-        Me.SimplaButton38.Text = "Transparent"
-        '
-        'SimplaButton39
-        '
-        Me.SimplaButton39.BackColor = System.Drawing.Color.Transparent
-        Me.SimplaButton39.ColorScheme = Dark_Souls_2_Basic_Tool.SimplaButton.ColorSchemes.DarkGray
-        Me.SimplaButton39.ForeColor = System.Drawing.Color.FromArgb(CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer))
-        Me.SimplaButton39.Location = New System.Drawing.Point(196, 76)
-        Me.SimplaButton39.Name = "SimplaButton39"
-        Me.SimplaButton39.Size = New System.Drawing.Size(169, 28)
-        Me.SimplaButton39.TabIndex = 7
-        Me.SimplaButton39.Text = "BLACK"
-        '
-        'SimplaButton27
-        '
-        Me.SimplaButton27.BackColor = System.Drawing.Color.Transparent
-        Me.SimplaButton27.ColorScheme = Dark_Souls_2_Basic_Tool.SimplaButton.ColorSchemes.DarkGray
-        Me.SimplaButton27.ForeColor = System.Drawing.Color.FromArgb(CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer))
-        Me.SimplaButton27.Location = New System.Drawing.Point(19, 110)
-        Me.SimplaButton27.Name = "SimplaButton27"
-        Me.SimplaButton27.Size = New System.Drawing.Size(169, 28)
-        Me.SimplaButton27.TabIndex = 3
-        Me.SimplaButton27.Text = "GREEN"
-        '
-        'SimplaButton29
-        '
-        Me.SimplaButton29.BackColor = System.Drawing.Color.Transparent
-        Me.SimplaButton29.ColorScheme = Dark_Souls_2_Basic_Tool.SimplaButton.ColorSchemes.DarkGray
-        Me.SimplaButton29.ForeColor = System.Drawing.Color.FromArgb(CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer))
-        Me.SimplaButton29.Location = New System.Drawing.Point(19, 178)
-        Me.SimplaButton29.Name = "SimplaButton29"
-        Me.SimplaButton29.Size = New System.Drawing.Size(169, 28)
-        Me.SimplaButton29.TabIndex = 5
-        Me.SimplaButton29.Text = "Normal"
+        Me.SimplaButton38.Text = "FLOU 2"
         '
         'SimplaButton25
         '
         Me.SimplaButton25.BackColor = System.Drawing.Color.Transparent
         Me.SimplaButton25.ColorScheme = Dark_Souls_2_Basic_Tool.SimplaButton.ColorSchemes.DarkGray
         Me.SimplaButton25.ForeColor = System.Drawing.Color.FromArgb(CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer))
-        Me.SimplaButton25.Location = New System.Drawing.Point(19, 42)
+        Me.SimplaButton25.Location = New System.Drawing.Point(7, 126)
         Me.SimplaButton25.Name = "SimplaButton25"
-        Me.SimplaButton25.Size = New System.Drawing.Size(169, 28)
+        Me.SimplaButton25.Size = New System.Drawing.Size(120, 28)
         Me.SimplaButton25.TabIndex = 1
-        Me.SimplaButton25.Text = "RED"
+        Me.SimplaButton25.Text = "BLUE"
         '
-        'SimplaButton28
+        'SimplaButton27
         '
-        Me.SimplaButton28.BackColor = System.Drawing.Color.Transparent
-        Me.SimplaButton28.ColorScheme = Dark_Souls_2_Basic_Tool.SimplaButton.ColorSchemes.DarkGray
-        Me.SimplaButton28.ForeColor = System.Drawing.Color.FromArgb(CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer))
-        Me.SimplaButton28.Location = New System.Drawing.Point(19, 144)
-        Me.SimplaButton28.Name = "SimplaButton28"
-        Me.SimplaButton28.Size = New System.Drawing.Size(169, 28)
-        Me.SimplaButton28.TabIndex = 4
-        Me.SimplaButton28.Text = "Flou"
+        Me.SimplaButton27.BackColor = System.Drawing.Color.Transparent
+        Me.SimplaButton27.ColorScheme = Dark_Souls_2_Basic_Tool.SimplaButton.ColorSchemes.DarkGray
+        Me.SimplaButton27.ForeColor = System.Drawing.Color.FromArgb(CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer))
+        Me.SimplaButton27.Location = New System.Drawing.Point(7, 194)
+        Me.SimplaButton27.Name = "SimplaButton27"
+        Me.SimplaButton27.Size = New System.Drawing.Size(120, 28)
+        Me.SimplaButton27.TabIndex = 3
+        Me.SimplaButton27.Text = "RED"
         '
         'SimplaButton26
         '
         Me.SimplaButton26.BackColor = System.Drawing.Color.Transparent
         Me.SimplaButton26.ColorScheme = Dark_Souls_2_Basic_Tool.SimplaButton.ColorSchemes.DarkGray
         Me.SimplaButton26.ForeColor = System.Drawing.Color.FromArgb(CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer))
-        Me.SimplaButton26.Location = New System.Drawing.Point(19, 76)
+        Me.SimplaButton26.Location = New System.Drawing.Point(7, 160)
         Me.SimplaButton26.Name = "SimplaButton26"
-        Me.SimplaButton26.Size = New System.Drawing.Size(169, 28)
+        Me.SimplaButton26.Size = New System.Drawing.Size(120, 28)
         Me.SimplaButton26.TabIndex = 2
-        Me.SimplaButton26.Text = "BLUE"
+        Me.SimplaButton26.Text = "GREEN"
+        '
+        'SimplaButton28
+        '
+        Me.SimplaButton28.BackColor = System.Drawing.Color.Transparent
+        Me.SimplaButton28.ColorScheme = Dark_Souls_2_Basic_Tool.SimplaButton.ColorSchemes.DarkGray
+        Me.SimplaButton28.ForeColor = System.Drawing.Color.FromArgb(CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer))
+        Me.SimplaButton28.Location = New System.Drawing.Point(7, 228)
+        Me.SimplaButton28.Name = "SimplaButton28"
+        Me.SimplaButton28.Size = New System.Drawing.Size(120, 44)
+        Me.SimplaButton28.TabIndex = 4
+        Me.SimplaButton28.Text = "Flou"
         '
         'TabPage4
         '
         Me.TabPage4.BackColor = System.Drawing.Color.FromArgb(CType(CType(34, Byte), Integer), CType(CType(34, Byte), Integer), CType(CType(34, Byte), Integer))
-        Me.TabPage4.Controls.Add(Me.PictureBox4)
-        Me.TabPage4.Controls.Add(Me.ComboBox1)
+        Me.TabPage4.Controls.Add(Me.Label5)
+        Me.TabPage4.Controls.Add(Me.Label4)
         Me.TabPage4.Controls.Add(Me.PictureBox3)
         Me.TabPage4.Controls.Add(Me.GroupBox11)
-        Me.TabPage4.Controls.Add(Me.PictureBox2)
-        Me.TabPage4.Controls.Add(Me.Label40)
-        Me.TabPage4.Controls.Add(Me.Label38)
-        Me.TabPage4.Controls.Add(Me.Label37)
         Me.TabPage4.Controls.Add(Me.Label36)
         Me.TabPage4.Controls.Add(Me.Label35)
         Me.TabPage4.Controls.Add(Me.Label34)
@@ -1461,34 +1387,33 @@ Partial Class Form1
         Me.TabPage4.TabIndex = 3
         Me.TabPage4.Text = "Credit"
         '
-        'PictureBox4
+        'Label5
         '
-        Me.PictureBox4.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox4.Image = CType(resources.GetObject("PictureBox4.Image"), System.Drawing.Image)
-        Me.PictureBox4.Location = New System.Drawing.Point(119, 255)
-        Me.PictureBox4.Name = "PictureBox4"
-        Me.PictureBox4.Size = New System.Drawing.Size(72, 60)
-        Me.PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox4.TabIndex = 15
-        Me.PictureBox4.TabStop = False
+        Me.Label5.AutoSize = True
+        Me.Label5.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.Location = New System.Drawing.Point(209, 266)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(114, 24)
+        Me.Label5.TabIndex = 16
+        Me.Label5.Text = "github.com"
         '
-        'ComboBox1
+        'Label4
         '
-        Me.ComboBox1.BackColor = System.Drawing.Color.FromArgb(CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer))
-        Me.ComboBox1.Cursor = System.Windows.Forms.Cursors.Default
-        Me.ComboBox1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.Items.AddRange(New Object() {"--------------------------", "BLUS41045 EBOOT DEX", "BLUS41045 UPDATE PKG", "--------------------------", "BLES01959 UPDATE PKG", "--------------------------"})
-        Me.ComboBox1.Location = New System.Drawing.Point(10, 375)
-        Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(197, 21)
-        Me.ComboBox1.TabIndex = 14
+        Me.Label4.AutoSize = True
+        Me.Label4.BackColor = System.Drawing.Color.Transparent
+        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.Location = New System.Drawing.Point(70, 27)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(120, 18)
+        Me.Label4.TabIndex = 15
+        Me.Label4.Text = "Coding : VB.NET"
         '
         'PictureBox3
         '
         Me.PictureBox3.Cursor = System.Windows.Forms.Cursors.Hand
         Me.PictureBox3.Image = CType(resources.GetObject("PictureBox3.Image"), System.Drawing.Image)
-        Me.PictureBox3.Location = New System.Drawing.Point(54, 74)
+        Me.PictureBox3.Location = New System.Drawing.Point(169, 88)
         Me.PictureBox3.Name = "PictureBox3"
         Me.PictureBox3.Size = New System.Drawing.Size(197, 175)
         Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -1503,7 +1428,7 @@ Partial Class Form1
         Me.GroupBox11.Controls.Add(Me.Label43)
         Me.GroupBox11.Controls.Add(Me.Label42)
         Me.GroupBox11.Controls.Add(Me.Label39)
-        Me.GroupBox11.Location = New System.Drawing.Point(301, 300)
+        Me.GroupBox11.Location = New System.Drawing.Point(153, 288)
         Me.GroupBox11.Name = "GroupBox11"
         Me.GroupBox11.Size = New System.Drawing.Size(231, 96)
         Me.GroupBox11.TabIndex = 12
@@ -1517,9 +1442,9 @@ Partial Class Form1
         Me.Label46.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label46.Location = New System.Drawing.Point(177, 70)
         Me.Label46.Name = "Label46"
-        Me.Label46.Size = New System.Drawing.Size(40, 20)
+        Me.Label46.Size = New System.Drawing.Size(44, 20)
         Me.Label46.TabIndex = 18
-        Me.Label46.Text = "2.00"
+        Me.Label46.Text = "3.1.0"
         '
         'Label45
         '
@@ -1580,53 +1505,6 @@ Partial Class Form1
         Me.Label39.Size = New System.Drawing.Size(115, 20)
         Me.Label39.TabIndex = 13
         Me.Label39.Text = "Version Game:"
-        '
-        'PictureBox2
-        '
-        Me.PictureBox2.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox2.Image = CType(resources.GetObject("PictureBox2.Image"), System.Drawing.Image)
-        Me.PictureBox2.Location = New System.Drawing.Point(321, 74)
-        Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(197, 175)
-        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox2.TabIndex = 10
-        Me.PictureBox2.TabStop = False
-        '
-        'Label40
-        '
-        Me.Label40.AutoSize = True
-        Me.Label40.BackColor = System.Drawing.Color.Transparent
-        Me.Label40.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Label40.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label40.Location = New System.Drawing.Point(172, 350)
-        Me.Label40.Name = "Label40"
-        Me.Label40.Size = New System.Drawing.Size(123, 20)
-        Me.Label40.TabIndex = 8
-        Me.Label40.Text = "|RealityGaming|"
-        '
-        'Label38
-        '
-        Me.Label38.AutoSize = True
-        Me.Label38.BackColor = System.Drawing.Color.Transparent
-        Me.Label38.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Label38.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label38.Location = New System.Drawing.Point(98, 351)
-        Me.Label38.Name = "Label38"
-        Me.Label38.Size = New System.Drawing.Size(66, 20)
-        Me.Label38.TabIndex = 6
-        Me.Label38.Text = "|Twitter|"
-        '
-        'Label37
-        '
-        Me.Label37.AutoSize = True
-        Me.Label37.BackColor = System.Drawing.Color.Transparent
-        Me.Label37.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Label37.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label37.Location = New System.Drawing.Point(6, 350)
-        Me.Label37.Name = "Label37"
-        Me.Label37.Size = New System.Drawing.Size(84, 20)
-        Me.Label37.TabIndex = 5
-        Me.Label37.Text = "|YouTube|"
         '
         'Label36
         '
@@ -1704,39 +1582,30 @@ Partial Class Form1
         Me.TabPage1.PerformLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.TabPage2.ResumeLayout(False)
-        Me.TabPage2.PerformLayout()
-        Me.InfluenceGroupBox3.ResumeLayout(False)
+        Me.GroupBox14.ResumeLayout(False)
         Me.TabPage3.ResumeLayout(False)
-        Me.GroupBox10.ResumeLayout(False)
-        CType(Me.NumericUpDown1, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.GroupBox9.ResumeLayout(False)
-        CType(Me.NumericUpDown7, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.GroupBox7.ResumeLayout(False)
-        CType(Me.NumericUpDown5, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.GroupBox8.ResumeLayout(False)
-        CType(Me.NumericUpDown3, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.GroupBox6.ResumeLayout(False)
-        CType(Me.NumericUpDown9, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.GroupBox5.ResumeLayout(False)
-        CType(Me.NumericUpDown4, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.GroupBox3.ResumeLayout(False)
-        CType(Me.NumericUpDown6, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.GroupBox4.ResumeLayout(False)
-        CType(Me.NumericUpDown8, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.GroupBox2.ResumeLayout(False)
-        CType(Me.NumericUpDown2, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.GroupBox15.ResumeLayout(False)
+        Me.GroupBox12.ResumeLayout(False)
+        Me.GroupBox12.PerformLayout()
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
+        Me.GroupBox10.ResumeLayout(False)
+        Me.GroupBox9.ResumeLayout(False)
+        Me.GroupBox8.ResumeLayout(False)
+        Me.GroupBox7.ResumeLayout(False)
+        Me.GroupBox6.ResumeLayout(False)
+        Me.GroupBox5.ResumeLayout(False)
+        Me.GroupBox4.ResumeLayout(False)
+        Me.GroupBox3.ResumeLayout(False)
+        Me.GroupBox2.ResumeLayout(False)
         Me.TabPage5.ResumeLayout(False)
-        Me.InfluenceGroupBox1.ResumeLayout(False)
-        Me.InfluenceGroupBox1.PerformLayout()
+        Me.GroupBox13.ResumeLayout(False)
+        Me.GroupBox13.PerformLayout()
         Me.TabPage4.ResumeLayout(False)
         Me.TabPage4.PerformLayout()
-        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
         Me.GroupBox11.ResumeLayout(False)
         Me.GroupBox11.PerformLayout()
-        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
 End Sub
@@ -1751,86 +1620,19 @@ End Sub
     Friend WithEvents PictureBox1 As System.Windows.Forms.PictureBox
     Friend WithEvents SimplaButton2 As Dark_Souls_2_Basic_Tool.SimplaButton
     Friend WithEvents SimplaButton1 As Dark_Souls_2_Basic_Tool.SimplaButton
-    Friend WithEvents SimplaButton10 As Dark_Souls_2_Basic_Tool.SimplaButton
     Friend WithEvents SimplaButton7 As Dark_Souls_2_Basic_Tool.SimplaButton
     Friend WithEvents SimplaButton6 As Dark_Souls_2_Basic_Tool.SimplaButton
     Friend WithEvents SimplaButton5 As Dark_Souls_2_Basic_Tool.SimplaButton
     Friend WithEvents SimplaButton4 As Dark_Souls_2_Basic_Tool.SimplaButton
     Friend WithEvents SimplaButton3 As Dark_Souls_2_Basic_Tool.SimplaButton
-    Friend WithEvents Label2 As System.Windows.Forms.Label
-    Friend WithEvents GroupBox1 As System.Windows.Forms.GroupBox
     Friend WithEvents Label3 As System.Windows.Forms.Label
-    Friend WithEvents SimplaButton9 As Dark_Souls_2_Basic_Tool.SimplaButton
-    Friend WithEvents Label24 As System.Windows.Forms.Label
-    Friend WithEvents Label25 As System.Windows.Forms.Label
-    Friend WithEvents Label26 As System.Windows.Forms.Label
-    Friend WithEvents Label27 As System.Windows.Forms.Label
-    Friend WithEvents Label28 As System.Windows.Forms.Label
-    Friend WithEvents Label29 As System.Windows.Forms.Label
-    Friend WithEvents Label30 As System.Windows.Forms.Label
-    Friend WithEvents Label31 As System.Windows.Forms.Label
-    Friend WithEvents Label32 As System.Windows.Forms.Label
-    Friend WithEvents Label23 As System.Windows.Forms.Label
-    Friend WithEvents Label22 As System.Windows.Forms.Label
-    Friend WithEvents Label21 As System.Windows.Forms.Label
-    Friend WithEvents Label20 As System.Windows.Forms.Label
-    Friend WithEvents Label19 As System.Windows.Forms.Label
-    Friend WithEvents Label18 As System.Windows.Forms.Label
-    Friend WithEvents Label17 As System.Windows.Forms.Label
-    Friend WithEvents Label16 As System.Windows.Forms.Label
-    Friend WithEvents Label15 As System.Windows.Forms.Label
-    Friend WithEvents Label14 As System.Windows.Forms.Label
-    Friend WithEvents Label13 As System.Windows.Forms.Label
-    Friend WithEvents Label12 As System.Windows.Forms.Label
-    Friend WithEvents Label11 As System.Windows.Forms.Label
-    Friend WithEvents Label10 As System.Windows.Forms.Label
-    Friend WithEvents Label9 As System.Windows.Forms.Label
-    Friend WithEvents Label8 As System.Windows.Forms.Label
-    Friend WithEvents Label7 As System.Windows.Forms.Label
-    Friend WithEvents Label6 As System.Windows.Forms.Label
-    Friend WithEvents Label5 As System.Windows.Forms.Label
-    Friend WithEvents Label4 As System.Windows.Forms.Label
-    Friend WithEvents SimplaButton14 As Dark_Souls_2_Basic_Tool.SimplaButton
-    Friend WithEvents SimplaButton13 As Dark_Souls_2_Basic_Tool.SimplaButton
-    Friend WithEvents SimplaButton12 As Dark_Souls_2_Basic_Tool.SimplaButton
-    Friend WithEvents SimplaButton11 As Dark_Souls_2_Basic_Tool.SimplaButton
     Friend WithEvents SimplaButton8 As Dark_Souls_2_Basic_Tool.SimplaButton
-    Friend WithEvents Timer2 As System.Windows.Forms.Timer
-    Friend WithEvents GroupBox10 As System.Windows.Forms.GroupBox
-    Friend WithEvents GroupBox9 As System.Windows.Forms.GroupBox
-    Friend WithEvents GroupBox7 As System.Windows.Forms.GroupBox
-    Friend WithEvents GroupBox8 As System.Windows.Forms.GroupBox
-    Friend WithEvents GroupBox5 As System.Windows.Forms.GroupBox
-    Friend WithEvents GroupBox3 As System.Windows.Forms.GroupBox
-    Friend WithEvents GroupBox4 As System.Windows.Forms.GroupBox
     Friend WithEvents GroupBox2 As System.Windows.Forms.GroupBox
-    Friend WithEvents GroupBox6 As System.Windows.Forms.GroupBox
-    Friend WithEvents NumericUpDown2 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents SimplaButton16 As Dark_Souls_2_Basic_Tool.SimplaButton
-    Friend WithEvents NumericUpDown1 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents SimplaButton21 As Dark_Souls_2_Basic_Tool.SimplaButton
-    Friend WithEvents NumericUpDown7 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents SimplaButton19 As Dark_Souls_2_Basic_Tool.SimplaButton
-    Friend WithEvents NumericUpDown5 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents SimplaButton17 As Dark_Souls_2_Basic_Tool.SimplaButton
-    Friend WithEvents NumericUpDown3 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents SimplaButton23 As Dark_Souls_2_Basic_Tool.SimplaButton
-    Friend WithEvents NumericUpDown9 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents SimplaButton18 As Dark_Souls_2_Basic_Tool.SimplaButton
-    Friend WithEvents NumericUpDown4 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents SimplaButton20 As Dark_Souls_2_Basic_Tool.SimplaButton
-    Friend WithEvents NumericUpDown6 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents SimplaButton22 As Dark_Souls_2_Basic_Tool.SimplaButton
-    Friend WithEvents NumericUpDown8 As System.Windows.Forms.NumericUpDown
     Friend WithEvents SimplaButton15 As Dark_Souls_2_Basic_Tool.SimplaButton
-    Friend WithEvents Label40 As System.Windows.Forms.Label
-    Friend WithEvents Label38 As System.Windows.Forms.Label
-    Friend WithEvents Label37 As System.Windows.Forms.Label
     Friend WithEvents Label36 As System.Windows.Forms.Label
     Friend WithEvents Label35 As System.Windows.Forms.Label
     Friend WithEvents Label34 As System.Windows.Forms.Label
     Friend WithEvents Label33 As System.Windows.Forms.Label
-    Friend WithEvents PictureBox2 As System.Windows.Forms.PictureBox
     Friend WithEvents GroupBox11 As System.Windows.Forms.GroupBox
     Friend WithEvents Label46 As System.Windows.Forms.Label
     Friend WithEvents Label45 As System.Windows.Forms.Label
@@ -1838,18 +1640,13 @@ End Sub
     Friend WithEvents Label43 As System.Windows.Forms.Label
     Friend WithEvents Label42 As System.Windows.Forms.Label
     Friend WithEvents Label39 As System.Windows.Forms.Label
-    Friend WithEvents SimplaButton24 As Dark_Souls_2_Basic_Tool.SimplaButton
     Friend WithEvents Timer1 As System.Windows.Forms.Timer
-    Friend WithEvents TextBox2 As Dark_Souls_2_Basic_Tool.SimplaTextBox
-    Friend WithEvents TextBox1 As Dark_Souls_2_Basic_Tool.SimplaTextBox
     Friend WithEvents TabPage5 As System.Windows.Forms.TabPage
     Friend WithEvents SimplaButton29 As Dark_Souls_2_Basic_Tool.SimplaButton
     Friend WithEvents SimplaButton28 As Dark_Souls_2_Basic_Tool.SimplaButton
     Friend WithEvents SimplaButton27 As Dark_Souls_2_Basic_Tool.SimplaButton
     Friend WithEvents SimplaButton26 As Dark_Souls_2_Basic_Tool.SimplaButton
     Friend WithEvents SimplaButton25 As Dark_Souls_2_Basic_Tool.SimplaButton
-    Friend WithEvents InfluenceGroupBox1 As Dark_Souls_2_Basic_Tool.InfluenceGroupBox
-    Friend WithEvents SimplaButton33 As Dark_Souls_2_Basic_Tool.SimplaButton
     Friend WithEvents SimplaButton46 As Dark_Souls_2_Basic_Tool.SimplaButton
     Friend WithEvents apitype As System.Windows.Forms.Label
     Friend WithEvents SimplaButton36 As Dark_Souls_2_Basic_Tool.SimplaButton
@@ -1859,12 +1656,77 @@ End Sub
     Friend WithEvents PictureBox3 As System.Windows.Forms.PictureBox
     Friend WithEvents SimplaButton40 As Dark_Souls_2_Basic_Tool.SimplaButton
     Friend WithEvents Timer3 As System.Windows.Forms.Timer
-    Friend WithEvents Label99 As System.Windows.Forms.Label
-    Friend WithEvents InfluenceGroupBox3 As Dark_Souls_2_Basic_Tool.InfluenceGroupBox
     Friend WithEvents SimplaButton35 As Dark_Souls_2_Basic_Tool.SimplaButton
     Friend WithEvents SimplaButton32 As Dark_Souls_2_Basic_Tool.SimplaButton
     Friend WithEvents SimplaButton42 As Dark_Souls_2_Basic_Tool.SimplaButton
-    Friend WithEvents ComboBox1 As System.Windows.Forms.ComboBox
-    Friend WithEvents PictureBox4 As System.Windows.Forms.PictureBox
+    Friend WithEvents SimplaButton31 As Dark_Souls_2_Basic_Tool.SimplaButton
+    Friend WithEvents SimplaButton30 As Dark_Souls_2_Basic_Tool.SimplaButton
+    Friend WithEvents GroupBox1 As System.Windows.Forms.GroupBox
+    Friend WithEvents SimplaButton9 As Dark_Souls_2_Basic_Tool.SimplaButton
+    Friend WithEvents SimplaTextBox2 As Dark_Souls_2_Basic_Tool.SimplaTextBox
+    Friend WithEvents GroupBox10 As System.Windows.Forms.GroupBox
+    Friend WithEvents SimplaButton54 As Dark_Souls_2_Basic_Tool.SimplaButton
+    Friend WithEvents SimplaButton55 As Dark_Souls_2_Basic_Tool.SimplaButton
+    Friend WithEvents SimplaButton56 As Dark_Souls_2_Basic_Tool.SimplaButton
+    Friend WithEvents GroupBox9 As System.Windows.Forms.GroupBox
+    Friend WithEvents SimplaButton51 As Dark_Souls_2_Basic_Tool.SimplaButton
+    Friend WithEvents SimplaButton52 As Dark_Souls_2_Basic_Tool.SimplaButton
+    Friend WithEvents SimplaButton53 As Dark_Souls_2_Basic_Tool.SimplaButton
+    Friend WithEvents GroupBox8 As System.Windows.Forms.GroupBox
+    Friend WithEvents SimplaButton48 As Dark_Souls_2_Basic_Tool.SimplaButton
+    Friend WithEvents SimplaButton49 As Dark_Souls_2_Basic_Tool.SimplaButton
+    Friend WithEvents SimplaButton50 As Dark_Souls_2_Basic_Tool.SimplaButton
+    Friend WithEvents GroupBox7 As System.Windows.Forms.GroupBox
+    Friend WithEvents SimplaButton44 As Dark_Souls_2_Basic_Tool.SimplaButton
+    Friend WithEvents SimplaButton45 As Dark_Souls_2_Basic_Tool.SimplaButton
+    Friend WithEvents SimplaButton47 As Dark_Souls_2_Basic_Tool.SimplaButton
+    Friend WithEvents GroupBox6 As System.Windows.Forms.GroupBox
+    Friend WithEvents SimplaButton34 As Dark_Souls_2_Basic_Tool.SimplaButton
+    Friend WithEvents SimplaButton41 As Dark_Souls_2_Basic_Tool.SimplaButton
+    Friend WithEvents SimplaButton43 As Dark_Souls_2_Basic_Tool.SimplaButton
+    Friend WithEvents GroupBox5 As System.Windows.Forms.GroupBox
+    Friend WithEvents SimplaButton22 As Dark_Souls_2_Basic_Tool.SimplaButton
+    Friend WithEvents SimplaButton23 As Dark_Souls_2_Basic_Tool.SimplaButton
+    Friend WithEvents SimplaButton33 As Dark_Souls_2_Basic_Tool.SimplaButton
+    Friend WithEvents GroupBox4 As System.Windows.Forms.GroupBox
+    Friend WithEvents SimplaButton19 As Dark_Souls_2_Basic_Tool.SimplaButton
+    Friend WithEvents SimplaButton20 As Dark_Souls_2_Basic_Tool.SimplaButton
+    Friend WithEvents SimplaButton21 As Dark_Souls_2_Basic_Tool.SimplaButton
+    Friend WithEvents GroupBox3 As System.Windows.Forms.GroupBox
+    Friend WithEvents SimplaButton16 As Dark_Souls_2_Basic_Tool.SimplaButton
+    Friend WithEvents SimplaButton17 As Dark_Souls_2_Basic_Tool.SimplaButton
+    Friend WithEvents SimplaButton18 As Dark_Souls_2_Basic_Tool.SimplaButton
+    Friend WithEvents GroupBox12 As System.Windows.Forms.GroupBox
+    Friend WithEvents SimplaButton12 As Dark_Souls_2_Basic_Tool.SimplaButton
+    Friend WithEvents SimplaTextBox3 As Dark_Souls_2_Basic_Tool.SimplaTextBox
+    Friend WithEvents GroupBox13 As System.Windows.Forms.GroupBox
+    Friend WithEvents GroupBox14 As System.Windows.Forms.GroupBox
+    Friend WithEvents SimplaButton71 As Dark_Souls_2_Basic_Tool.SimplaButton
+    Friend WithEvents SimplaButton70 As Dark_Souls_2_Basic_Tool.SimplaButton
+    Friend WithEvents SimplaButton64 As Dark_Souls_2_Basic_Tool.SimplaButton
+    Friend WithEvents SimplaButton65 As Dark_Souls_2_Basic_Tool.SimplaButton
+    Friend WithEvents SimplaButton66 As Dark_Souls_2_Basic_Tool.SimplaButton
+    Friend WithEvents SimplaButton67 As Dark_Souls_2_Basic_Tool.SimplaButton
+    Friend WithEvents SimplaButton68 As Dark_Souls_2_Basic_Tool.SimplaButton
+    Friend WithEvents SimplaButton69 As Dark_Souls_2_Basic_Tool.SimplaButton
+    Friend WithEvents SimplaButton58 As Dark_Souls_2_Basic_Tool.SimplaButton
+    Friend WithEvents SimplaButton59 As Dark_Souls_2_Basic_Tool.SimplaButton
+    Friend WithEvents SimplaButton60 As Dark_Souls_2_Basic_Tool.SimplaButton
+    Friend WithEvents SimplaButton61 As Dark_Souls_2_Basic_Tool.SimplaButton
+    Friend WithEvents SimplaButton62 As Dark_Souls_2_Basic_Tool.SimplaButton
+    Friend WithEvents SimplaButton63 As Dark_Souls_2_Basic_Tool.SimplaButton
+    Friend WithEvents SimplaButton10 As Dark_Souls_2_Basic_Tool.SimplaButton
+    Friend WithEvents SimplaButton11 As Dark_Souls_2_Basic_Tool.SimplaButton
+    Friend WithEvents SimplaButton13 As Dark_Souls_2_Basic_Tool.SimplaButton
+    Friend WithEvents SimplaButton14 As Dark_Souls_2_Basic_Tool.SimplaButton
+    Friend WithEvents SimplaButton24 As Dark_Souls_2_Basic_Tool.SimplaButton
+    Friend WithEvents SimplaButton57 As Dark_Souls_2_Basic_Tool.SimplaButton
+    Friend WithEvents GroupBox15 As System.Windows.Forms.GroupBox
+    Friend WithEvents SimplaButton72 As Dark_Souls_2_Basic_Tool.SimplaButton
+    Friend WithEvents SimplaButton73 As Dark_Souls_2_Basic_Tool.SimplaButton
+    Friend WithEvents SimplaButton74 As Dark_Souls_2_Basic_Tool.SimplaButton
+    Friend WithEvents Label2 As System.Windows.Forms.Label
+    Friend WithEvents Label4 As System.Windows.Forms.Label
+    Friend WithEvents Label5 As System.Windows.Forms.Label
 
 End Class

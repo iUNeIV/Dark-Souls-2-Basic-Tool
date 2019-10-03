@@ -29,6 +29,7 @@ Partial Class CCAPI_Box
         Me.Label2 = New System.Windows.Forms.Label()
         Me.SimplaButton1 = New Dark_Souls_2_Basic_Tool.SimplaButton()
         Me.Label1 = New System.Windows.Forms.Label()
+        Me.SimplaButton2 = New Dark_Souls_2_Basic_Tool.SimplaButton()
         Me.InfluenceTheme1.SuspendLayout()
         Me.SimplaTheme1.SuspendLayout()
         Me.SuspendLayout()
@@ -49,6 +50,7 @@ Partial Class CCAPI_Box
         'SimplaTheme1
         '
         Me.SimplaTheme1.BackColor = System.Drawing.Color.FromArgb(CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer))
+        Me.SimplaTheme1.Controls.Add(Me.SimplaButton2)
         Me.SimplaTheme1.Controls.Add(Me.ListBox2)
         Me.SimplaTheme1.Controls.Add(Me.Label2)
         Me.SimplaTheme1.Controls.Add(Me.SimplaButton1)
@@ -89,7 +91,7 @@ Partial Class CCAPI_Box
         Me.SimplaButton1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer))
         Me.SimplaButton1.Location = New System.Drawing.Point(12, 285)
         Me.SimplaButton1.Name = "SimplaButton1"
-        Me.SimplaButton1.Size = New System.Drawing.Size(275, 24)
+        Me.SimplaButton1.Size = New System.Drawing.Size(179, 24)
         Me.SimplaButton1.TabIndex = 5
         Me.SimplaButton1.Text = "Connection"
         '
@@ -104,6 +106,17 @@ Partial Class CCAPI_Box
         Me.Label1.Size = New System.Drawing.Size(19, 18)
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "X"
+        '
+        'SimplaButton2
+        '
+        Me.SimplaButton2.BackColor = System.Drawing.Color.Transparent
+        Me.SimplaButton2.ColorScheme = Dark_Souls_2_Basic_Tool.SimplaButton.ColorSchemes.DarkGray
+        Me.SimplaButton2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer), CType(CType(205, Byte), Integer))
+        Me.SimplaButton2.Location = New System.Drawing.Point(198, 285)
+        Me.SimplaButton2.Name = "SimplaButton2"
+        Me.SimplaButton2.Size = New System.Drawing.Size(89, 23)
+        Me.SimplaButton2.TabIndex = 9
+        Me.SimplaButton2.Text = "Refresh"
         '
         'CCAPI_Box
         '
@@ -130,4 +143,5 @@ Partial Class CCAPI_Box
     Friend WithEvents Label2 As System.Windows.Forms.Label
     Friend WithEvents ListBox2 As System.Windows.Forms.ListBox
     Private WithEvents Label1 As System.Windows.Forms.Label
+    Friend WithEvents SimplaButton2 As Dark_Souls_2_Basic_Tool.SimplaButton
 End Class

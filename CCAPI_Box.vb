@@ -37,7 +37,7 @@ Public Class CCAPI_Box
         If ListBox2.Items.Count > 0 Then
             ListBox2.SelectedItem = 0
         Else
-            MessageBox.Show("None console to connect :/")
+            MessageBox.Show("None console to connect :/", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
         End If
 
     End Sub
@@ -50,34 +50,44 @@ Public Class CCAPI_Box
 
     Private Sub SimplaButton1_Click(sender As Object, e As EventArgs) Handles SimplaButton1.Click
 
-        If Label2.Text = "Select to // " & ListBox2.Text Then
+        Label2.Text = "Select to // " & ListBox2.Text
 
-            Try
-                Dim Console As PS3Lib.CCAPI.ConsoleInfo = Consoles.ElementAt(ListBox2.SelectedIndex)
+        Try
+            Dim Console As PS3Lib.CCAPI.ConsoleInfo = Consoles.ElementAt(ListBox2.SelectedIndex)
 
-                If PS3.ConnectTarget(Console.Ip) Then
-                    API.CCAPI.ConnectTarget()
-                    API.CCAPI.AttachProcess()
-                    MessageBox.Show("Merci de utiliser mon tool !!!" + vbNewLine + "Vous-être connecter en tant que : " + API.GetConsoleName() + "." + vbNewLine + "Trouver moi sur {[ www.VF99.fr ]}", "Connexion de la PS3", MessageBoxButtons.OK, MessageBoxIcon.Information)
+            If PS3.ConnectTarget(Console.Ip) Then
+                API.CCAPI.AttachProcess()
+                MessageBox.Show("Merci de utiliser mon tool !!!" + vbNewLine + "Vous-être connecter en tant que : " + API.GetConsoleName() + "." + vbNewLine + "Trouver moi sur {[ www.VF99.fr ]}", "Connexion de la PS3", MessageBoxButtons.OK, MessageBoxIcon.Information)
 
-                    Form1.SimplaButton46.Text = "Disconnect : CEX"
-                    Form1.SimplaButton2.Enabled = True
-                    Form1.SimplaButton1.Enabled = False
-                    Me.Close()
-                Else
+                Form1.SimplaButton46.Text = "Disconnect : CEX"
+                Form1.SimplaButton2.Enabled = True
+                Form1.SimplaButton1.Enabled = False
+                Me.Close()
+            Else
 
-                    MessageBox.Show([String].Format("Failed to connect to {0}", Console.Name))
-                End If
+                MessageBox.Show("None console to connect :/" + API.GetConsoleName, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
+            End If
 
-            Catch ex As Exception
-
-                MessageBox.Show("None console to connect :/")
-            End Try
-        Else
-        End If
+        Catch ex As Exception
+            MessageBox.Show("None console to connect :/" + API.GetConsoleName, "Error 0x2", MessageBoxButtons.OK, MessageBoxIcon.Error)
+        End Try
     End Sub
 
     Private Sub ListBox2_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ListBox2.SelectedIndexChanged
-        Label2.Text = "Select to [ " & ListBox2.Text & " ]"
+        If ListBox2.Text = "" Then
+
+        Else
+            Label2.Text = "Select to */ " & ListBox2.Text
+        End If
+    End Sub
+
+    Private Sub SimplaButton2_Click(sender As Object, e As EventArgs) Handles SimplaButton2.Click
+        ListBox2.Items.Clear()
+        UpdateConsoles()
+        If ListBox2.Items.Count > 0 Then
+            ListBox2.SelectedItem = 0
+        Else
+            MessageBox.Show("None console to connect :/", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
+        End If
     End Sub
 End Class
