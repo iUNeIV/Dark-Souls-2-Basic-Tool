@@ -27,8 +27,6 @@ Si vous utiliser mes codes dans votre tool. Je voudrais seulement être dans les
 <center>
  
 Allez voir dans la liste de releases [ici](https://github.com/iUNeIV/Dark-Souls-2-Basic-Tool/releases)<br>
-Version binaire du programme : [ici](https://github.com/iUNeIV/Dark-Souls-2-Basic-Tool/releases/download/2.0/Dark.Souls.2.binaire.rar)<br>
-Version open source du programme : [ici](https://github.com/iUNeIV/Dark-Souls-2-Basic-Tool/archive/2.0.zip)
 
 </center>
 
