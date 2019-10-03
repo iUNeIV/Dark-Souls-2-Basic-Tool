@@ -34,5 +34,5 @@ Version open source du programme : [ici](https://github.com/iUNeIV/Dark-Souls-2-
 
 <br>
 <center>
-  https://iuneiv.com
+  https://iuneiv.xyz
 </center>
